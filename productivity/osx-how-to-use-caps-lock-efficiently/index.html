@@ -15,7 +15,8 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff"><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock"/>
-<meta name="twitter:description" content="ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ ฆณ์ฮฉฐฐฯ๊็
+<meta name="twitter:description" content="Deprecated ตอนนี้ใช้ Karabiner-elements แทนได้แล้ว
+ ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ ฆณ์ฮฉฐฐฯ๊็
 อย่าง Colemak ก็เปลี่ยนฟังก์ชั่นของปุ่มนี้เป็น Backspace แต่ยังมีวิธีอื่นที่ทำอะไรได้มากกว่านั้น ด้วยการทำให้มันเป็น Hyper Key
 Hyper Key เอามาจากปุ่ม Modifier ที่มีในคีย์บอร์ด Space Cadet นอกเหนือจาก Ctrl, Super และ Meta (เดี๋ยวนี้เหลือแต่ Ctrl, Super และ Alt)
 ซึ่งเราจะใช้ Hyper ร่วมกับปุ่มอื่นๆ เพื่อสร้าง Shortcut แบบกดง่ายจำง่ายของตัวเองกัน
@@ -34,7 +35,7 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
                 "url": "\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "geek, howto, mac, osx, productivity","wordcount":  240 ,
+            },"genre": "posts","keywords": "geek, howto, mac, osx, productivity","wordcount":  260 ,
         "url": "\/productivity\/osx-how-to-use-caps-lock-efficiently\/","datePublished": "2016-03-02T19:31:56\x2b00:00","dateModified": "2016-03-02T19:31:56\x2b00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
                 "@type": "Organization",
                 "name": "xxxx",
@@ -77,35 +78,57 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
                     <i class="fas fa-user-circle fa-fw"></i>narze
                 </a>&nbsp;<span class="post-category">included in&nbsp;<i class="far fa-folder fa-fw"></i><a href="/categories/productivity/">Productivity</a>&nbsp;</span></div>
             <div class="post-meta-other"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2016-03-02>2016-03-02</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>about 240 words&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 260 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>2 min&nbsp;</div>
-        </div><div class="post-content"><p>ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ <em>ฆณ์ฮฉฐฐฯ๊็</em></p>
+        </div><div class="post-content"><h1 id="deprecated">Deprecated</h1>
+<p>ตอนนี้ใช้ Karabiner-elements แทนได้แล้ว</p>
+<hr>
+<p>ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ <em>ฆณ์ฮฉฐฐฯ๊็</em></p>
 <p>อย่าง <a href="http://colemak.com/" target="_blank">Colemak</a> ก็เปลี่ยนฟังก์ชั่นของปุ่มนี้เป็น Backspace แต่ยังมีวิธีอื่นที่ทำอะไรได้มากกว่านั้น ด้วยการทำให้มันเป็น Hyper Key</p>
 <p>Hyper Key เอามาจากปุ่ม Modifier ที่มีในคีย์บอร์ด <a href="https://en.wikipedia.org/wiki/Space-cadet_keyboard" target="_blank">Space Cadet</a> นอกเหนือจาก Ctrl, Super และ Meta (เดี๋ยวนี้เหลือแต่ Ctrl, Super และ Alt)</p>
 <p>ซึ่งเราจะใช้ Hyper ร่วมกับปุ่มอื่นๆ เพื่อสร้าง Shortcut แบบกดง่ายจำง่ายของตัวเองกัน</p>
 <p>เริ่มจากโหลดโปรแกรมที่จำเป็นกันก่อน คือ <a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank">Seil</a> กับ <a href="https://pqrs.org/osx/karabiner/" target="_blank">Karabiner</a></p>
 <p>เราจะให้ Hyper Key เป็นการกด Ctrl, Alt (Option), Cmd, Shift พร้อมกันทั้งหมด จะได้ไม่ไปซ้ำกับโปรแกรมอะไรเลยเพราะมันกดยากมาก เราจะใช้ Seil เพื่อ Remap Caps Lock เป็นปุ่มอื่นที่ไม่มีบนคีย์บอร์ดก่อน เช่น F19 แล้วค่อยใช้ Karabiner Remap F19 เป็น Ctrl + Option + Cmd + Shift อีกทีนึง</p>
 <p>เริ่มจากเปิด Seil แล้วปรับให้ Keycode ของ Caps Lock เป็น 80 ตรงกับ F19 ในตารางด้านล่าง</p>
-<p><a href="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01.png" rel="attachment wp-att-27"><img class="alignnone size-full wp-image-27" src="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01.png" alt="Seil" width="780" height="734" srcset="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01.png 780w, https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01-300x282.png 300w, https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01-768x723.png 768w" sizes="(max-width: 780px) 100vw, 780px" /></a></p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/images/seil.png" alt="Seil" class="lazyload"><figcaption class="image-caption">Seil</figcaption></figure></p>
 <p>ต่อไปเปิด Karabiner แล้วไปที่แท็บ Misc &amp; Uninstall แล้วกด Open private.xml จากนั้นคลิกขวาที่ไฟล์แล้ว Open With &gt; Text Edit หรือโปรแกรม Text Editor ตัวไหนก็ได้</p>
 <p>จากนั้นนำโค้ดนี้ไปแปะไว้ระหว่าง <code>&lt;root&gt;</code> และ <code>&lt;/root&gt;</code></p>
-<pre><code>&lt;item&gt;
-    &lt;name&gt;Remap F19 to Hyper&lt;/name&gt;
-    &lt;appendix&gt;OS X doesn't have a Hyper. This maps F19 to Control + Shift + Option + Command.&lt;/appendix&gt;
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;item</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;name</span><span class="nt">&gt;</span>Remap F19 to Hyper<span class="nt">&lt;/name&gt;</span>
+    <span class="nt">&lt;appendix</span><span class="nt">&gt;</span>OS X doesn&#39;t have a Hyper. This maps F19 to Control + Shift + Option + Command.<span class="nt">&lt;/appendix&gt;</span>
 
-    &lt;identifier&gt;usercustom.f19_to_hyper&lt;/identifier&gt;
+    <span class="nt">&lt;identifier</span><span class="nt">&gt;</span>usercustom.f19_to_hyper<span class="nt">&lt;/identifier&gt;</span>
 
-    &lt;autogen&gt;
+    <span class="nt">&lt;autogen</span><span class="nt">&gt;</span>
         --KeyToKey--
         KeyCode::F19,
 
         KeyCode::COMMAND_R,
         ModifierFlag::OPTION_R | ModifierFlag::SHIFT_R | ModifierFlag::CONTROL_R
-    &lt;/autogen&gt;
-&lt;/item&gt;
-</code></pre>
-<p>เซฟไฟล์ private.xml จากนั้นกลับมาที่โปรแกรม Karabiner แท็บ Change Key กด Reload XML จากนั้นค้นหาและติ๊กที่ช่อง <code>Remap F19 to Hyper</code></p>
-<p><a hrefs="http://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04.png" rel="attachment wp-att-28"><img class="alignnone size-full wp-image-28" src="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04.png" alt="Screenshot 2016-03-03 02.16.04" width="912" height="754" srcset="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04.png 912w, https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04-300x248.png 300w, https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04-768x635.png 768w" sizes="(max-width: 912px) 100vw, 912px" /></a></p>
+    <span class="nt">&lt;/autogen&gt;</span>
+<span class="nt">&lt;/item&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>เซฟไฟล์ private.xml จากนั้นกลับมาที่โปรแกรม Karabiner แท็บ Change Key กด Reload XML จากนั้นค้นหาและติ๊กที่ช่อง <code>Remap F19 to Hyper</code></p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/images/karabiner.png" alt="Karabiner" class="lazyload"><figcaption class="image-caption">Karabiner</figcaption></figure></p>
 <p>เท่านี้ก็จะได้ปุ่ม Hyper key เอาไปใช้ทำ Shortcut ต่างๆ ได้มากมาย ที่ใช้อยู่เช่น</p>
 <ul>
 <li>เปิด Sublime Text ด้วย Hyper + S</li>
@@ -133,7 +156,7 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
         </div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
-            <div class="post-info-share"><span><a href="//twitter.com/share?url=%2fproductivity%2fosx-how-to-use-caps-lock-efficiently%2f&amp;text=%5bOSX%5d%20%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b9%83%e0%b8%8a%e0%b9%89%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b9%82%e0%b8%a2%e0%b8%8a%e0%b8%99%e0%b9%8c%e0%b8%88%e0%b8%b2%e0%b8%81%e0%b8%9b%e0%b8%b8%e0%b9%88%e0%b8%a1%20Caps%20Lock&amp;via=xxxx" target="_blank" title="Share on Twitter">
+            <div class="post-info-share"><span><a href="//twitter.com/share?url=%2fproductivity%2fosx-how-to-use-caps-lock-efficiently%2f&amp;text=%5bOSX%5d%20%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b9%83%e0%b8%8a%e0%b9%89%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b9%82%e0%b8%a2%e0%b8%8a%e0%b8%99%e0%b9%8c%e0%b8%88%e0%b8%b2%e0%b8%81%e0%b8%9b%e0%b8%b8%e0%b9%88%e0%b8%a1%20Caps%20Lock&amp;via=narze" target="_blank" title="Share on Twitter">
             <i class="fab fa-twitter fa-fw"></i>
         </a><a href="//www.facebook.com/sharer/sharer.php?u=%2fproductivity%2fosx-how-to-use-caps-lock-efficiently%2f" target="_blank" title="Share on Facebook">
             <i class="fab fa-facebook-square fa-fw"></i>

@@ -48,7 +48,7 @@
 
 ถ้ามีโปรแกรมไหนชื่อตามนี้หรือคล้ายๆ กัน ก็จะโผล่มาให้เราเห็น
 
-[<img class="alignnone wp-image-5 size-large" src="http://monosor.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-23-at-1.05.40-AM-1024x202.png" alt="brew cask search baidu" width="660" height="130" srcset="https://monosor.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-23-at-1.05.40-AM-1024x202.png 1024w, https://monosor.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-23-at-1.05.40-AM-300x59.png 300w, https://monosor.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-23-at-1.05.40-AM.png 1124w" sizes="(max-width: 660px) 100vw, 660px" />][12]
+![brew cask search baidu](/images/brew-cask-search-baidu.png)
 
 ดันมีจริงๆ ซะด้วย&#8230;
 
@@ -58,11 +58,7 @@
 
 อันนี้เป็นโปรแกรมต่างๆ ที่ผมลงในปัจจุบันด้วย Cask ครับ
 
-<div class="oembed-gist">
-  <noscript>
-    View the code on <a href="https://gist.github.com/narze/0a5b4a7ac21d1e3cb947">Gist</a>.
-  </noscript>
-</div>
+{{< gist narze 0a5b4a7ac21d1e3cb947 >}}
 
  [1]: https://www.google.com/chrome/browser
  [2]: https://dropbox.com
@@ -75,5 +71,4 @@
  [9]: https://pqrs.org/osx/karabiner
  [10]: http://caskroom.io
  [11]: http://brew.sh
- [12]: http://monosor.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-23-at-1.05.40-AM.png
 

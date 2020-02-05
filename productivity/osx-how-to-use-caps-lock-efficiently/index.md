@@ -1,5 +1,11 @@
 # [OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock
 
+
+# Deprecated
+ตอนนี้ใช้ Karabiner-elements แทนได้แล้ว
+
+---
+
 ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ _ฆณ์ฮฉฐฐฯ๊็_
 
 อย่าง [Colemak][1] ก็เปลี่ยนฟังก์ชั่นของปุ่มนี้เป็น Backspace แต่ยังมีวิธีอื่นที่ทำอะไรได้มากกว่านั้น ด้วยการทำให้มันเป็น Hyper Key
@@ -14,31 +20,32 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
 
 เริ่มจากเปิด Seil แล้วปรับให้ Keycode ของ Caps Lock เป็น 80 ตรงกับ F19 ในตารางด้านล่าง
 
-<a href="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01.png" rel="attachment wp-att-27"><img class="alignnone size-full wp-image-27" src="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01.png" alt="Seil" width="780" height="734" srcset="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01.png 780w, https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01-300x282.png 300w, https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.06.01-768x723.png 768w" sizes="(max-width: 780px) 100vw, 780px" /></a>
+![Seil](/images/seil.png)
 
 ต่อไปเปิด Karabiner แล้วไปที่แท็บ Misc & Uninstall แล้วกด Open private.xml จากนั้นคลิกขวาที่ไฟล์แล้ว Open With > Text Edit หรือโปรแกรม Text Editor ตัวไหนก็ได้
 
 จากนั้นนำโค้ดนี้ไปแปะไว้ระหว่าง `<root>` และ `</root>`
 
-    <item>
-        <name>Remap F19 to Hyper</name>
-        <appendix>OS X doesn't have a Hyper. This maps F19 to Control + Shift + Option + Command.</appendix>
+```xml
+<item>
+    <name>Remap F19 to Hyper</name>
+    <appendix>OS X doesn't have a Hyper. This maps F19 to Control + Shift + Option + Command.</appendix>
 
-        <identifier>usercustom.f19_to_hyper</identifier>
+    <identifier>usercustom.f19_to_hyper</identifier>
 
-        <autogen>
-            --KeyToKey--
-            KeyCode::F19,
+    <autogen>
+        --KeyToKey--
+        KeyCode::F19,
 
-            KeyCode::COMMAND_R,
-            ModifierFlag::OPTION_R | ModifierFlag::SHIFT_R | ModifierFlag::CONTROL_R
-        </autogen>
-    </item>
-
+        KeyCode::COMMAND_R,
+        ModifierFlag::OPTION_R | ModifierFlag::SHIFT_R | ModifierFlag::CONTROL_R
+    </autogen>
+</item>
+```
 
 เซฟไฟล์ private.xml จากนั้นกลับมาที่โปรแกรม Karabiner แท็บ Change Key กด Reload XML จากนั้นค้นหาและติ๊กที่ช่อง `Remap F19 to Hyper`
 
-<a hrefs="http://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04.png" rel="attachment wp-att-28"><img class="alignnone size-full wp-image-28" src="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04.png" alt="Screenshot 2016-03-03 02.16.04" width="912" height="754" srcset="https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04.png 912w, https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04-300x248.png 300w, https://monosor.com/wp-content/uploads/2016/03/Screenshot-2016-03-03-02.16.04-768x635.png 768w" sizes="(max-width: 912px) 100vw, 912px" /></a>
+![Karabiner](/images/karabiner.png)
 
 เท่านี้ก็จะได้ปุ่ม Hyper key เอาไปใช้ทำ Shortcut ต่างๆ ได้มากมาย ที่ใช้อยู่เช่น
 

@@ -18,7 +18,8 @@
       <pubDate>Wed, 02 Mar 2016 19:31:56 +0000</pubDate>
       
       <guid>/productivity/osx-how-to-use-caps-lock-efficiently/</guid>
-      <description>ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ ฆณ์ฮฉฐฐฯ๊็
+      <description>Deprecated ตอนนี้ใช้ Karabiner-elements แทนได้แล้ว
+ ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ ฆณ์ฮฉฐฐฯ๊็
 อย่าง Colemak ก็เปลี่ยนฟังก์ชั่นของปุ่มนี้เป็น Backspace แต่ยังมีวิธีอื่นที่ทำอะไรได้มากกว่านั้น ด้วยการทำให้มันเป็น Hyper Key
 Hyper Key เอามาจากปุ่ม Modifier ที่มีในคีย์บอร์ด Space Cadet นอกเหนือจาก Ctrl, Super และ Meta (เดี๋ยวนี้เหลือแต่ Ctrl, Super และ Alt)
 ซึ่งเราจะใช้ Hyper ร่วมกับปุ่มอื่นๆ เพื่อสร้าง Shortcut แบบกดง่ายจำง่ายของตัวเองกัน
