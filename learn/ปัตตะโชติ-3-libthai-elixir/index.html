@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ปัตตะโชติ #3 – ดึงชุดคำจาก Libthai ด้วย Elixir | monosor</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noodp" />
+<meta name="Description" content="About LoveIt Theme"><link rel="prev" href="/learn/pattachote-2-10fastfingers/" /><link rel="next" href="/geek/%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%A1/" /><link rel="canonical" href="/learn/%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B0%E0%B9%82%E0%B8%8A%E0%B8%95%E0%B8%B4-3-libthai-elixir/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ปัตตะโชติ #3 – ดึงชุดคำจาก Libthai ด้วย Elixir"/>
+<meta name="twitter:description" content="บันทึกการใช้ Layout ปัตตะโชติ เมื่อผ่านมาแล้ว 2 อาทิตย์ ยังมีปัญหาจำตัวอักษรได้ไม่หมด โดยเฉพาะตัวที่ไม่ได้ใช้บ่อย และพวกที่ต้องกดพร้อมกับ Shift ยิ่งแทบจำไม่ได้ เลยยังต้องเก็บโพยปัตตะโชติเอาไว้อยู่
+ที่พิมพ์ได้คล่องแล้วคือ Home row ที่เอาชุดคำไปขึ้นในเว็บ 10fastfingers แต่พอเริ่มขยายไปแถวอื่นๆ ก็นึกคำที่จะใช้ฝึกได้ไม่ครอบคลุมแล้ว เพราะคำยิ่งเยอะ Combination ก็จะยิ่งเยอะตามไปด้วย
+เนื่องจากที่ช่วงนี้กำลังลองเล่นภาษา Elixir ก็เลยทดลองเขียนโปรแกรม Generate คำ ที่ประกอบด้วยตัวอักษรที่กำหนดให้ออกมา เช่นถ้าใส่ตัวอักษร ท,ง,ก,า,น,เ เข้าไป จะได้คำภาษาไทยออกมา เป็น กางเกง,งก,ทนง,ทนทาน,นาง,เทา เป็นต้น โดยชุดคำที่นำมาใช้เอามาจาก Libthai ครับ
+Blog นี้ใช้เวลาพิมพ์และเรียบเรียงประมาณ 15 นาที นับว่าเร็วขึ้นมาหน่อย"/>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "ปัตตะโชติ #3 – ดึงชุดคำจาก Libthai ด้วย Elixir",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/learn\/%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B0%E0%B9%82%E0%B8%8A%E0%B8%95%E0%B8%B4-3-libthai-elixir\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "geek, pattachote","wordcount":  43 ,
+        "url": "\/learn\/%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B0%E0%B9%82%E0%B8%8A%E0%B8%95%E0%B8%B4-3-libthai-elixir\/","datePublished": "2016-11-29T17:49:40\x2b00:00","dateModified": "2016-11-29T17:49:40\x2b00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "xxxx",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"description": ""
+    }
+    </script><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/css/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/css/lib/animate/animate.min.css"></head>
+    <body><script>
+            window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><nav class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-header animated bounceIn">
+            <a href="/">monosor</a>
+        </div>
+        <div class="navbar-menu"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
+        </div>
+    </div>
+</nav><nav class="navbar-mobile">
+    <div class="navbar-container">
+        <div class="navbar-header">
+            <div class="navbar-header-title animated bounceIn">
+                <a href="/">monosor</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="mobile-menu"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
+        </div>
+    </div>
+</nav><main class="main">
+                <div class="container"><article class="page"><h1 class="post-title animated flipInX">ปัตตะโชติ #3 – ดึงชุดคำจาก Libthai ด้วย Elixir</h1><div class="post-meta">
+            <div class="post-meta-main"><a class="author" href="/" rel="author" target="_blank">
+                    <i class="fas fa-user-circle fa-fw"></i>narze
+                </a>&nbsp;<span class="post-category">included in&nbsp;<i class="far fa-folder fa-fw"></i><a href="/categories/learn/">Learn</a>&nbsp;</span></div>
+            <div class="post-meta-other"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2016-11-29>2016-11-29</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 43 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>1 min&nbsp;</div>
+        </div><div class="post-featured-image"><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/wp-content/uploads/2016/11/Screenshot-2016-11-30-00.40.34-825x510.png" alt="featured image" class="lazyload"></div><div class="post-content"><p>บันทึกการใช้ Layout ปัตตะโชติ เมื่อผ่านมาแล้ว 2 อาทิตย์ ยังมีปัญหาจำตัวอักษรได้ไม่หมด โดยเฉพาะตัวที่ไม่ได้ใช้บ่อย และพวกที่ต้องกดพร้อมกับ Shift ยิ่งแทบจำไม่ได้ เลยยังต้องเก็บโพยปัตตะโชติเอาไว้อยู่</p>
+<p>ที่พิมพ์ได้คล่องแล้วคือ Home row ที่เอาชุดคำไปขึ้นในเว็บ <a href="https://10fastfingers.com/text/85665-Pattachote-Home-Row-%e0%b8%97-%e0%b8%87-%e0%b8%81-%e0%b8%b2-%e0%b8%99-%e0%b9%80-%e0%b9%84-%e0%b8%82" target="_blank">10fastfingers</a> แต่พอเริ่มขยายไปแถวอื่นๆ ก็นึกคำที่จะใช้ฝึกได้ไม่ครอบคลุมแล้ว เพราะคำยิ่งเยอะ Combination ก็จะยิ่งเยอะตามไปด้วย</p>
+<p>เนื่องจากที่ช่วงนี้กำลังลองเล่นภาษา Elixir ก็เลยทดลองเขียน<a href="https://gist.github.com/narze/942ddbeaada619c7e3a91f1af7a741ca" target="_blank">โปรแกรม Generate คำ</a> ที่ประกอบด้วยตัวอักษรที่กำหนดให้ออกมา เช่นถ้าใส่ตัวอักษร <code>ท,ง,ก,า,น,เ</code> เข้าไป จะได้คำภาษาไทยออกมา เป็น <code>กางเกง,งก,ทนง,ทนทาน,นาง,เทา</code> เป็นต้น โดยชุดคำที่นำมาใช้เอามาจาก <a href="https://github.com/tlwg/libthai/tree/master/data" target="_blank">Libthai</a> ครับ</p>
+<p>Blog นี้ใช้เวลาพิมพ์และเรียบเรียงประมาณ 15 นาที นับว่าเร็วขึ้นมาหน่อย</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>The article was updated on 2016-11-29</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"><span><a href="//twitter.com/share?url=%2flearn%2f%25E0%25B8%259B%25E0%25B8%25B1%25E0%25B8%2595%25E0%25B8%2595%25E0%25B8%25B0%25E0%25B9%2582%25E0%25B8%258A%25E0%25B8%2595%25E0%25B8%25B4-3-libthai-elixir%2f&amp;text=%e0%b8%9b%e0%b8%b1%e0%b8%95%e0%b8%95%e0%b8%b0%e0%b9%82%e0%b8%8a%e0%b8%95%e0%b8%b4%20%233%20%e2%80%93%20%e0%b8%94%e0%b8%b6%e0%b8%87%e0%b8%8a%e0%b8%b8%e0%b8%94%e0%b8%84%e0%b8%b3%e0%b8%88%e0%b8%b2%e0%b8%81%20Libthai%20%e0%b8%94%e0%b9%89%e0%b8%a7%e0%b8%a2%20Elixir&amp;via=xxxx" target="_blank" title="Share on Twitter">
+            <i class="fab fa-twitter fa-fw"></i>
+        </a><a href="//www.facebook.com/sharer/sharer.php?u=%2flearn%2f%25E0%25B8%259B%25E0%25B8%25B1%25E0%25B8%2595%25E0%25B8%2595%25E0%25B8%25B0%25E0%25B9%2582%25E0%25B8%258A%25E0%25B8%2595%25E0%25B8%25B4-3-libthai-elixir%2f" target="_blank" title="Share on Facebook">
+            <i class="fab fa-facebook-square fa-fw"></i>
+        </a><a href="//reddit.com/submit?url=%2flearn%2f%25E0%25B8%259B%25E0%25B8%25B1%25E0%25B8%2595%25E0%25B8%2595%25E0%25B8%25B0%25E0%25B9%2582%25E0%25B8%258A%25E0%25B8%2595%25E0%25B8%25B4-3-libthai-elixir%2f&amp;title=%e0%b8%9b%e0%b8%b1%e0%b8%95%e0%b8%95%e0%b8%b0%e0%b9%82%e0%b8%8a%e0%b8%95%e0%b8%b4%20%233%20%e2%80%93%20%e0%b8%94%e0%b8%b6%e0%b8%87%e0%b8%8a%e0%b8%b8%e0%b8%94%e0%b8%84%e0%b8%b3%e0%b8%88%e0%b8%b2%e0%b8%81%20Libthai%20%e0%b8%94%e0%b9%89%e0%b8%a7%e0%b8%a2%20Elixir" target="_blank" title="Share on Reddit">
+            <i class="fab fa-reddit fa-fw"></i>
+        </a></span></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section><span class="tag">
+                        <a href="/tags/geek/"><i class="fas fa-tag fa-fw"></i>&nbsp;geek</a>&nbsp;
+                    </span><span class="tag">
+                        <a href="/tags/pattachote/"><i class="fas fa-tag fa-fw"></i>&nbsp;pattachote</a>&nbsp;
+                    </span></section>
+        <section>
+            <span><a href="javascript:window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/learn/pattachote-2-10fastfingers/" class="prev" rel="prev" title="ปัตตะโชติ #2 – 10fastfingers.com"><i class="fas fa-angle-left fa-fw"></i>ปัตตะโชติ #2 – 10fastfingers.com</a>
+            <a href="/geek/%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%A1/" class="next" rel="next" title="ปัญหาเส้นผม">ปัญหาเส้นผม<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div><div class="post-comment"></div>
+    </article></div>
+            </main><footer class="footer">
+    <div class="copyright"><div class="copyright-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt<i class="far fa-heart fa-fw"></i></a>
+        </div>
+
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer></div><a href="#" class="dynamic-to-top" id="dynamic-to-top" data-scroll>
+            <span>&nbsp;</span>
+        </a><script src="/js/lib/jquery/jquery.slim.min.js"></script><script src="/js/lib/lazysizes/lazysizes.min.js"></script><script src="/js/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script>window.scroll = new SmoothScroll('[data-scroll]', {speed: 300, speedAsDuration: true});</script><link rel="stylesheet" href="/css/lib/katex/katex.min.css"><script src="/js/lib/katex/katex.min.js"></script><script defer src="/js/lib/katex/auto-render.min.js"></script><link rel="stylesheet" href="/css/lib/katex/copy-tex.min.css"><script defer src="/js/lib/katex/copy-tex.min.js"></script><script defer src="/js/lib/katex/mhchem.min.js"></script><script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true },{ left: "$", right: "$", display: false },]
+            });
+        });
+    </script><script src="/js/blog.min.js"></script></body>
+</html>

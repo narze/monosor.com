@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mac on monosor</title>
+    <link>/tags/mac/</link>
+    <description>Recent content in mac on monosor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 02 Mar 2016 19:31:56 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock</title>
+      <link>/productivity/osx-how-to-use-caps-lock-efficiently/</link>
+      <pubDate>Wed, 02 Mar 2016 19:31:56 +0000</pubDate>
+      
+      <guid>/productivity/osx-how-to-use-caps-lock-efficiently/</guid>
+      <description>ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ ฆณ์ฮฉฐฐฯ๊็
+อย่าง Colemak ก็เปลี่ยนฟังก์ชั่นของปุ่มนี้เป็น Backspace แต่ยังมีวิธีอื่นที่ทำอะไรได้มากกว่านั้น ด้วยการทำให้มันเป็น Hyper Key
+Hyper Key เอามาจากปุ่ม Modifier ที่มีในคีย์บอร์ด Space Cadet นอกเหนือจาก Ctrl, Super และ Meta (เดี๋ยวนี้เหลือแต่ Ctrl, Super และ Alt)
+ซึ่งเราจะใช้ Hyper ร่วมกับปุ่มอื่นๆ เพื่อสร้าง Shortcut แบบกดง่ายจำง่ายของตัวเองกัน
+เริ่มจากโหลดโปรแกรมที่จำเป็นกันก่อน คือ Seil กับ Karabiner
+เราจะให้ Hyper Key เป็นการกด Ctrl, Alt (Option), Cmd, Shift พร้อมกันทั้งหมด จะได้ไม่ไปซ้ำกับโปรแกรมอะไรเลยเพราะมันกดยากมาก เราจะใช้ Seil เพื่อ Remap Caps Lock เป็นปุ่มอื่นที่ไม่มีบนคีย์บอร์ดก่อน เช่น F19 แล้วค่อยใช้ Karabiner Remap F19 เป็น Ctrl + Option + Cmd + Shift อีกทีนึง</description>
+    </item>
+    
+    <item>
+      <title>ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask</title>
+      <link>/geek/homebrew-cask/</link>
+      <pubDate>Sun, 22 Nov 2015 19:13:26 +0000</pubDate>
+      
+      <guid>/geek/homebrew-cask/</guid>
+      <description>&lt;p&gt;ทุกครั้งที่ลงแมคใหม่ ด้วยความที่เป็นคนชอบใช้โปรแกรมเยอะมาก ก็จะเริ่มจากการโหลดทุกอย่างให้ครบซะก่อนจะทำอะไรอย่างอื่น ไล่เรียงออกมาจะได้ประมาณนี้&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/chrome/browser&#34; target=&#34;_blank&#34;&gt;Google Chrome&lt;/a&gt; (สมัยยังใช้ Windows พูดเป็นประจำว่า “IE มีไว้เพื่อโหลด Chrome”) เดี๋ยวนี้ยังดีที่เซ็ตติ้งทุกอย่าง Sync มาได้เลย เมื่อก่อนต้องก๊อปโปรไฟล์มาแปะตลอด&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dropbox.com&#34; target=&#34;_blank&#34;&gt;Dropbox&lt;/a&gt; พวกเซ็ตติ้งของแอพอื่นๆ ที่ไม่มี Sync ก็เอาไว้ในนี้ แต่เดี๋ยวนี้เริ่มหันไปใช้ BTSync&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://evernote.com&#34; target=&#34;_blank&#34;&gt;Evernote&lt;/a&gt; ช่วงนี้จะโดนโพสโจมตีบ่อยๆ แต่ก็ยังจงรักภักดีอยู่ แถมยังลืมยกเลิกสมาชิกรายปีอีกตะหาก&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://slack.com&#34; target=&#34;_blank&#34;&gt;Slack&lt;/a&gt; ไว้คุยงาน&lt;/li&gt;
+&lt;li&gt;Text Editor ต่างๆ (&lt;a href=&#34;https://atom.io&#34; target=&#34;_blank&#34;&gt;Atom&lt;/a&gt;, &lt;a href=&#34;http://www.sublimetext.com/&#34; target=&#34;_blank&#34;&gt;Sublime Text&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://iterm2.com&#34; target=&#34;_blank&#34;&gt;iTerm2&lt;/a&gt; แทน Terminal&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.alfredapp.com&#34; target=&#34;_blank&#34;&gt;Alfred 2&lt;/a&gt; แทน Spotlight Search (เมื่อก่อนใช้ Quicksilver เพราะฟรี)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pqrs.org/osx/karabiner&#34; target=&#34;_blank&#34;&gt;Karabiner&lt;/a&gt; ทำปุ่มลัดแบบ Geek สุดๆ&lt;/li&gt;
+&lt;li&gt;มีอีกเยอะมากๆ&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

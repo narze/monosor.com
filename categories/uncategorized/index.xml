@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncategorized on monosor</title>
+    <link>/categories/uncategorized/</link>
+    <description>Recent content in Uncategorized on monosor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 12 Aug 2019 14:34:49 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ลองเขียน Wiki ให้ตัวเอง</title>
+      <link>/uncategorized/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-wiki-%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%AD%E0%B8%87/</link>
+      <pubDate>Mon, 12 Aug 2019 14:34:49 +0000</pubDate>
+      
+      <guid>/uncategorized/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-wiki-%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%AD%E0%B8%87/</guid>
+      <description>Check it out https://wiki.monosor.com</description>
+    </item>
+    
+  </channel>
+</rss>

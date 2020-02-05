@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ครั้งแรกกับ Haskell และ Functional Programming | monosor</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noodp" />
+<meta name="Description" content="About LoveIt Theme"><link rel="prev" href="/productivity/osx-how-to-use-caps-lock-efficiently/" /><link rel="next" href="/geek/setting-up-teamviewer-on-ubuntu-via-ssh-command-line/" /><link rel="canonical" href="/programming/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-haskell-%E0%B9%81%E0%B8%A5%E0%B8%B0-functional-programming/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ครั้งแรกกับ Haskell และ Functional Programming"/>
+<meta name="twitter:description" content="เมื่อวันก่อนไปเรียน Haskell For Noob ที่ SPRINT3R Geeky Base มา ด้วยความที่ช่วงนี้เห็นภาษาแนว Functional มาแรงในช่วงนี้ ประกอบกับแย่งลงทะเบียนทันเวลา เลยมาลองดู
+เริ่มจากการติดตั้ง Haskell ลงบนเครื่องตัวเอง คืนก่อนวันเรียนลองหาข้อมูลไปเจอกับตัว Haskell Stack เห็นว่ามันลงสะดวกดีก็เลยใช้ตัวนี้ (ในคลาสก็ใช้เหมือนกัน) ลงในแมคคำสั่งเดียวใช้ได้เลย ใช้ Homebrew brew install haskell-stack
+เนื่องจากเป็นคลาสเบื้องต้น เกือบทั้งวันเลยใช้แค่ GHC (Glasgow Haskell Compiler) เป็นคอมไพเลอร์ที่นิยมใช้กัน กับ GHCi เป็น Interpreter คล้ายๆ กับ irb ใน Ruby เอาไว้ลองศึกษาหรือลองโค้ดเล่นๆ ได้ดี
+GHCi ที่มากับตัว Stack รันด้วยคำสั่ง stack ghci แล้ว โหลดไฟล์ .hs ด้วยคำสั่ง :load filename.hs ในคลาสที่เรียนนี้จะใช้วิธีแก้ไฟล์ .hs แล้วใน GHCi ก็รีโหลดด้วยคำสั่ง :reload ให้คอมไพล์ตัวไฟล์เข้ามาใหม่เพื่อรันคำสั่งแต่ละ Function ว่าใช้งานได้ถูกต้องหรือไม่
+สิ่งที่ได้จากคลาสนี้ :
+ เข้าใจคำว่า Functional Programming มากขึ้นเยอะ จากตอนที้เรียน Prolog สมัยมหาลัยฯ แล้วแทบไม่เข้าใจว่าทำไม Paradigm มันแปลกๆ และดูใช้งานยากจังเลย รื้อฟื้นการเขียน Recursive Function ที่แทบไม่ได้ใช้เลยตอนเขียนเว็บ ที่มาของ map, reduce ที่เห็นในภาษาอื่นๆ ก็เป็น Functional นั่นเอง เหตุผลที่ Functional Programming มาเริ่มฮิตเมื่อไม่นานมานี้ คือเรื่องของประสิทธิภาพในการคำนวนที่สูงขึ้นกว่าแต่ก่อน และ Concurrency Programming Currying ไม่ได้เกี่ยวกับแกงกะหรี่!"/>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "ครั้งแรกกับ Haskell และ Functional Programming",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/programming\/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-haskell-%E0%B9%81%E0%B8%A5%E0%B8%B0-functional-programming\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","wordcount":  116 ,
+        "url": "\/programming\/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-haskell-%E0%B9%81%E0%B8%A5%E0%B8%B0-functional-programming\/","datePublished": "2016-03-20T16:09:28\x2b00:00","dateModified": "2016-03-20T16:09:28\x2b00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "xxxx",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"description": ""
+    }
+    </script><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/css/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/css/lib/animate/animate.min.css"></head>
+    <body><script>
+            window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><nav class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-header animated bounceIn">
+            <a href="/">monosor</a>
+        </div>
+        <div class="navbar-menu"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
+        </div>
+    </div>
+</nav><nav class="navbar-mobile">
+    <div class="navbar-container">
+        <div class="navbar-header">
+            <div class="navbar-header-title animated bounceIn">
+                <a href="/">monosor</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="mobile-menu"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
+        </div>
+    </div>
+</nav><main class="main">
+                <div class="container"><article class="page"><h1 class="post-title animated flipInX">ครั้งแรกกับ Haskell และ Functional Programming</h1><div class="post-meta">
+            <div class="post-meta-main"><a class="author" href="/" rel="author" target="_blank">
+                    <i class="fas fa-user-circle fa-fw"></i>narze
+                </a>&nbsp;<span class="post-category">included in&nbsp;<i class="far fa-folder fa-fw"></i><a href="/categories/programming/">Programming</a>&nbsp;</span></div>
+            <div class="post-meta-other"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2016-03-20>2016-03-20</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 116 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>1 min&nbsp;</div>
+        </div><div class="post-content"><p>เมื่อวันก่อนไปเรียน <a href="https://www.eventpop.me/e/336" target="_blank">Haskell For Noob</a> ที่ <a href="https://www.facebook.com/SPRINT3RGroup/" target="_blank">SPRINT3R</a> <a href="https://www.facebook.com/geekybase/" target="_blank">Geeky Base</a> มา ด้วยความที่ช่วงนี้เห็นภาษาแนว Functional มาแรงในช่วงนี้ ประกอบกับแย่งลงทะเบียนทันเวลา เลยมาลองดู</p>
+<p>เริ่มจากการติดตั้ง Haskell ลงบนเครื่องตัวเอง คืนก่อนวันเรียนลองหาข้อมูลไปเจอกับตัว Haskell Stack เห็นว่ามันลงสะดวกดีก็เลยใช้ตัวนี้ (ในคลาสก็ใช้เหมือนกัน) ลงในแมคคำสั่งเดียวใช้ได้เลย ใช้ <a href="http://brew.sh/" target="_blank">Homebrew</a> <code>brew install haskell-stack</code></p>
+<p>เนื่องจากเป็นคลาสเบื้องต้น เกือบทั้งวันเลยใช้แค่ GHC (Glasgow Haskell Compiler) เป็นคอมไพเลอร์ที่นิยมใช้กัน กับ GHCi เป็น Interpreter คล้ายๆ กับ irb ใน Ruby เอาไว้ลองศึกษาหรือลองโค้ดเล่นๆ ได้ดี</p>
+<p>GHCi ที่มากับตัว Stack รันด้วยคำสั่ง <code>stack ghci</code> แล้ว โหลดไฟล์ .hs ด้วยคำสั่ง <code>:load filename.hs</code> ในคลาสที่เรียนนี้จะใช้วิธีแก้ไฟล์ .hs แล้วใน GHCi ก็รีโหลดด้วยคำสั่ง <code>:reload</code> ให้คอมไพล์ตัวไฟล์เข้ามาใหม่เพื่อรันคำสั่งแต่ละ Function ว่าใช้งานได้ถูกต้องหรือไม่</p>
+<p>สิ่งที่ได้จากคลาสนี้ :</p>
+<ul>
+<li>เข้าใจคำว่า Functional Programming มากขึ้นเยอะ จากตอนที้เรียน Prolog สมัยมหาลัยฯ แล้วแทบไม่เข้าใจว่าทำไม Paradigm มันแปลกๆ และดูใช้งานยากจังเลย</li>
+<li>รื้อฟื้นการเขียน Recursive Function ที่แทบไม่ได้ใช้เลยตอนเขียนเว็บ</li>
+<li>ที่มาของ <code>map</code>, <code>reduce</code> ที่เห็นในภาษาอื่นๆ ก็เป็น Functional นั่นเอง</li>
+<li>เหตุผลที่ Functional Programming มาเริ่มฮิตเมื่อไม่นานมานี้ คือเรื่องของประสิทธิภาพในการคำนวนที่สูงขึ้นกว่าแต่ก่อน และ Concurrency Programming</li>
+<li><a href="https://en.wikipedia.org/wiki/Currying" target="_blank">Currying</a> ไม่ได้เกี่ยวกับแกงกะหรี่!</li>
+<li><a href="https://github.com/narze/sandbox/blob/master/haskell/hello_world/Main.hs" target="_blank">Code ที่เขียน</a>, <a href="https://github.com/narze/sandbox/blob/master/haskell/README.md" target="_blank">Lecture ที่จด</a></li>
+</ul>
+<p>สุดท้ายนี้ขอขอบคุณ <a href="https://twitter.com/iporsut" target="_blank">@iporsut</a> ที่เปิดโลก Functional Programming ให้ เพื่อนๆ ที่ร่วมเรียนร่วมแชร์ความรู้กัน และ SPRINT3R สำหรับสถานที่ครับ</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>The article was updated on 2016-03-20</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"><span><a href="//twitter.com/share?url=%2fprogramming%2f%25E0%25B8%2584%25E0%25B8%25A3%25E0%25B8%25B1%25E0%25B9%2589%25E0%25B8%2587%25E0%25B9%2581%25E0%25B8%25A3%25E0%25B8%2581%25E0%25B8%2581%25E0%25B8%25B1%25E0%25B8%259A-haskell-%25E0%25B9%2581%25E0%25B8%25A5%25E0%25B8%25B0-functional-programming%2f&amp;text=%e0%b8%84%e0%b8%a3%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b9%81%e0%b8%a3%e0%b8%81%e0%b8%81%e0%b8%b1%e0%b8%9a%20Haskell%20%e0%b9%81%e0%b8%a5%e0%b8%b0%20Functional%20Programming&amp;via=xxxx" target="_blank" title="Share on Twitter">
+            <i class="fab fa-twitter fa-fw"></i>
+        </a><a href="//www.facebook.com/sharer/sharer.php?u=%2fprogramming%2f%25E0%25B8%2584%25E0%25B8%25A3%25E0%25B8%25B1%25E0%25B9%2589%25E0%25B8%2587%25E0%25B9%2581%25E0%25B8%25A3%25E0%25B8%2581%25E0%25B8%2581%25E0%25B8%25B1%25E0%25B8%259A-haskell-%25E0%25B9%2581%25E0%25B8%25A5%25E0%25B8%25B0-functional-programming%2f" target="_blank" title="Share on Facebook">
+            <i class="fab fa-facebook-square fa-fw"></i>
+        </a><a href="//reddit.com/submit?url=%2fprogramming%2f%25E0%25B8%2584%25E0%25B8%25A3%25E0%25B8%25B1%25E0%25B9%2589%25E0%25B8%2587%25E0%25B9%2581%25E0%25B8%25A3%25E0%25B8%2581%25E0%25B8%2581%25E0%25B8%25B1%25E0%25B8%259A-haskell-%25E0%25B9%2581%25E0%25B8%25A5%25E0%25B8%25B0-functional-programming%2f&amp;title=%e0%b8%84%e0%b8%a3%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b9%81%e0%b8%a3%e0%b8%81%e0%b8%81%e0%b8%b1%e0%b8%9a%20Haskell%20%e0%b9%81%e0%b8%a5%e0%b8%b0%20Functional%20Programming" target="_blank" title="Share on Reddit">
+            <i class="fab fa-reddit fa-fw"></i>
+        </a></span></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section></section>
+        <section>
+            <span><a href="javascript:window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/productivity/osx-how-to-use-caps-lock-efficiently/" class="prev" rel="prev" title="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock"><i class="fas fa-angle-left fa-fw"></i>[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock</a>
+            <a href="/geek/setting-up-teamviewer-on-ubuntu-via-ssh-command-line/" class="next" rel="next" title="Setting up TeamViewer on Ubuntu via SSH command line">Setting up TeamViewer on Ubuntu via SSH command line<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div><div class="post-comment"></div>
+    </article></div>
+            </main><footer class="footer">
+    <div class="copyright"><div class="copyright-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt<i class="far fa-heart fa-fw"></i></a>
+        </div>
+
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer></div><a href="#" class="dynamic-to-top" id="dynamic-to-top" data-scroll>
+            <span>&nbsp;</span>
+        </a><script src="/js/lib/jquery/jquery.slim.min.js"></script><script src="/js/lib/lazysizes/lazysizes.min.js"></script><script src="/js/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script>window.scroll = new SmoothScroll('[data-scroll]', {speed: 300, speedAsDuration: true});</script><link rel="stylesheet" href="/css/lib/katex/katex.min.css"><script src="/js/lib/katex/katex.min.js"></script><script defer src="/js/lib/katex/auto-render.min.js"></script><link rel="stylesheet" href="/css/lib/katex/copy-tex.min.css"><script defer src="/js/lib/katex/copy-tex.min.js"></script><script defer src="/js/lib/katex/mhchem.min.js"></script><script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true },{ left: "$", right: "$", display: false },]
+            });
+        });
+    </script><script src="/js/blog.min.js"></script></body>
+</html>

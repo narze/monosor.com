@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>LoveIt Theme | LoveIt Theme</title>
+        <title>monosor | monosor</title>
         <link>/</link>
-        <description>LoveIt Theme | LoveIt Theme</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Feb 2020 19:11:05 +0700</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
+        <description>monosor | monosor</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Aug 2019 14:34:49 +0000</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
                 <title>Posts</title>
                 <link>/posts/</link>
-                <pubDate>Tue, 04 Feb 2020 19:11:05 +0700</pubDate><guid>/posts/</guid>
+                <pubDate>Mon, 12 Aug 2019 14:34:49 +0000</pubDate><guid>/posts/</guid>
                 <description></description>
             </item></channel>
 </rss>

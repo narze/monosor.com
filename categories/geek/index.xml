@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geek on monosor</title>
+    <link>/categories/geek/</link>
+    <description>Recent content in Geek on monosor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 13:58:11 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/geek/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ทำเครื่อง Sous-vide แบบบ้านๆ</title>
+      <link>/geek/%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sous-vide-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%86/</link>
+      <pubDate>Sun, 01 Jan 2017 13:58:11 +0000</pubDate>
+      
+      <guid>/geek/%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sous-vide-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%86/</guid>
+      <description>&lt;p&gt;ถ้าใครไม่รู้จัก Sous-vide มันคือการเอาอาหารไปซีลถุงสุญญากาศแล้วเอาไปต้มน้ำอุ่นที่ควบคุมอุณหภูมิไว้ครับ ซึ่งตัวเครื่องแพงเอาเรื่องอยู่ เลยมีคนหาวิธีทำแบบ DIY เลยลองดูครับ&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://monosor.com/wp-content/uploads/2017/01/IMG_20161231_125905_result.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;size-full wp-image-91&#34; src=&#34;http://monosor.com/wp-content/uploads/2017/01/IMG_20161231_125905_result.jpg&#34; alt=&#34;DIY Sous-vide&#34; width=&#34;800&#34; height=&#34;600&#34; srcset=&#34;https://monosor.com/wp-content/uploads/2017/01/IMG_20161231_125905_result.jpg 800w, https://monosor.com/wp-content/uploads/2017/01/IMG_20161231_125905_result-300x225.jpg 300w, https://monosor.com/wp-content/uploads/2017/01/IMG_20161231_125905_result-768x576.jpg 768w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ปัญหาเส้นผม</title>
+      <link>/geek/%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%A1/</link>
+      <pubDate>Wed, 30 Nov 2016 14:11:24 +0000</pubDate>
+      
+      <guid>/geek/%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%A1/</guid>
+      <description>วันนี้น้องที่ทำงานมาแจ้งว่าตัวหนังสือที่พิมพ์ออกมาติดกันเกินไป คำว่า Exclusive ออกมาเป็น Exdusive ให้ช่วยขยาย Font ให้ใหญ่ขึ้นหน่อยจะได้เห็นชัดขึ้น
+ด้วยความรีบเร่ง ผสมกับความขี้เกียจ ก็เลยเข้าไปแก้ชื่อเป็น Exc lusive ให้ โดยมีเว้นวรรคเข้าไป จบข่าว แต่…
+
+น้องยังไม่ยอมจบ เพราะช่องไฟมันยังห่างเกินไป เราก็คิดว่าคงจนตรอกละ ต้องยอมเข้าไปแก้ระบบให้มันมี Space Width เพิ่มขึ้น จนกระทั่งไปเจอไอ้นี่เข้า…Hair Space!
+
+Hair Space ที่บางกว่า Space ปกติถึงสามเท่า! รอดตัวไป ขอบคุณ Unicode มา ณ ที่นี้ด้วยครับ</description>
+    </item>
+    
+    <item>
+      <title>สวัสดีปัตตะโชติ – Pattachote 1st time</title>
+      <link>/geek/%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B5%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B0%E0%B9%82%E0%B8%8A%E0%B8%95%E0%B8%B4-pattachote-1st-time/</link>
+      <pubDate>Mon, 14 Nov 2016 12:28:30 +0000</pubDate>
+      
+      <guid>/geek/%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B5%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B0%E0%B9%82%E0%B8%8A%E0%B8%95%E0%B8%B4-pattachote-1st-time/</guid>
+      <description>ก่อนหน้านี้พยายามใช้ปัตตะโชติมาครั้งนึง เมื่อประมาณสามปีที่แล้ว สมัยที่ยังไม่คล่อง Colemak เลยด้วยซำ้
+จากการสำรวจจากบทความต่างๆ พบว่าเลยเอ๊าทนี้ (หาตัวการันตไม่เจอโว้ย) มีมานานกว่าที่คิดไว้
+ปัตตะโชติ (Pattachote) มีมาตั้งแต่ปี ๒๕๐๙ อายุนับได้ ๕๐ ปีพอดี (ทำไมเรียงเลขไทยแปลกๆ)
+เป็นแป้นพิมพที่พัฒนาให้พิมพไทยได้ประสิทธิภาพกว่าเกตุมณี ดูได้จากการวางตัวอักษรที่ตัวที่ถูกใช้บ่อยจะอยู่ใกล้แป้นเหย้า (Home Row)
+และไม่ไปกระจุกตัวกันแถวๆ นิ้วก้อยมึอขวามากเกินไป แต่เลย์เอาท์นี้ (เจอการันต์แล้ว) ก็เสื่อมความนิยมลงไปหลังจากที่เกตุมณีไดัมาตรฐาน มอก. ๖๒๐ (TIS-620) นับว่าเจอชะตากรรมเดียวกับ Dvorak หรืออาจแย่กว่านั้นอีก ถึงวันน้ีรู้จักคนใช้ปัตตะโชติแค่สองคนเอง
+เหตุผลที่จะลองดูอีกครั้ง เพราะไม่ค่อยไดัพิมพ์ไทยเยอะๆ ในเวลางานแล้ว และทุกวันนี้ก็พิมพ์สัมผัสไทยไม่คล่องเท่าเดิม ต้องก้มมองตลอด
+อีกอย่างคือ เก็บข้อมูลเผื่อว่าจะได้ออกแบบเลย์เอาท์ใหม่ซะเลย มีนามสกุลอยู่ในคอมทุกเครื่อง เท่โคตรๆ
+บทความนี้ใช้เวลาพิมพ์ทั้งหมด 2 Pomodoros นับเป็นห้าสิบนาที นับเป็น Character/Min ได้ยังไม่ถืง ๒๐ ตัวต่อนาที</description>
+    </item>
+    
+    <item>
+      <title>Setting up TeamViewer on Ubuntu via SSH command line</title>
+      <link>/geek/setting-up-teamviewer-on-ubuntu-via-ssh-command-line/</link>
+      <pubDate>Sat, 26 Mar 2016 18:03:24 +0000</pubDate>
+      
+      <guid>/geek/setting-up-teamviewer-on-ubuntu-via-ssh-command-line/</guid>
+      <description> SSH into Ubuntu ssh user@your.ubuntu.host Download TeamViewer (32-bit) using wget or curl : wget http://download.teamviewer.com/download/teamviewer_i386.deb Install it sudo dpkg -i teamviewer_linux.deb If dependency problem occurs sudo apt-get -f install then install again sudo dpkg -i teamviewer_linux.deb sudo teamviewer setup then enter your TeamViewer account username &amp;amp; password sudo teamviewer daemon start to start TeamViewer daemon sudo teamviewer daemon enable to enable starting TeamViewer on boot  </description>
+    </item>
+    
+    <item>
+      <title>ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask</title>
+      <link>/geek/homebrew-cask/</link>
+      <pubDate>Sun, 22 Nov 2015 19:13:26 +0000</pubDate>
+      
+      <guid>/geek/homebrew-cask/</guid>
+      <description>&lt;p&gt;ทุกครั้งที่ลงแมคใหม่ ด้วยความที่เป็นคนชอบใช้โปรแกรมเยอะมาก ก็จะเริ่มจากการโหลดทุกอย่างให้ครบซะก่อนจะทำอะไรอย่างอื่น ไล่เรียงออกมาจะได้ประมาณนี้&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/chrome/browser&#34; target=&#34;_blank&#34;&gt;Google Chrome&lt;/a&gt; (สมัยยังใช้ Windows พูดเป็นประจำว่า “IE มีไว้เพื่อโหลด Chrome”) เดี๋ยวนี้ยังดีที่เซ็ตติ้งทุกอย่าง Sync มาได้เลย เมื่อก่อนต้องก๊อปโปรไฟล์มาแปะตลอด&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dropbox.com&#34; target=&#34;_blank&#34;&gt;Dropbox&lt;/a&gt; พวกเซ็ตติ้งของแอพอื่นๆ ที่ไม่มี Sync ก็เอาไว้ในนี้ แต่เดี๋ยวนี้เริ่มหันไปใช้ BTSync&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://evernote.com&#34; target=&#34;_blank&#34;&gt;Evernote&lt;/a&gt; ช่วงนี้จะโดนโพสโจมตีบ่อยๆ แต่ก็ยังจงรักภักดีอยู่ แถมยังลืมยกเลิกสมาชิกรายปีอีกตะหาก&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://slack.com&#34; target=&#34;_blank&#34;&gt;Slack&lt;/a&gt; ไว้คุยงาน&lt;/li&gt;
+&lt;li&gt;Text Editor ต่างๆ (&lt;a href=&#34;https://atom.io&#34; target=&#34;_blank&#34;&gt;Atom&lt;/a&gt;, &lt;a href=&#34;http://www.sublimetext.com/&#34; target=&#34;_blank&#34;&gt;Sublime Text&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://iterm2.com&#34; target=&#34;_blank&#34;&gt;iTerm2&lt;/a&gt; แทน Terminal&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.alfredapp.com&#34; target=&#34;_blank&#34;&gt;Alfred 2&lt;/a&gt; แทน Spotlight Search (เมื่อก่อนใช้ Quicksilver เพราะฟรี)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pqrs.org/osx/karabiner&#34; target=&#34;_blank&#34;&gt;Karabiner&lt;/a&gt; ทำปุ่มลัดแบบ Geek สุดๆ&lt;/li&gt;
+&lt;li&gt;มีอีกเยอะมากๆ&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
