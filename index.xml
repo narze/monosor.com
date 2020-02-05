@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>monosor | monosor</title>
+        <title>narze @ monosor.com | narze @ monosor.com</title>
         <link>/</link>
-        <description>monosor | monosor</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Aug 2019 14:34:49 +0000</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
+        <description>narze @ monosor.com | narze @ monosor.com</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Jan 2017 13:58:11 +0000</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
                 <title>Posts</title>
                 <link>/posts/</link>
-                <pubDate>Mon, 12 Aug 2019 14:34:49 +0000</pubDate><guid>/posts/</guid>
+                <pubDate>Sun, 01 Jan 2017 13:58:11 +0000</pubDate><guid>/posts/</guid>
                 <description></description>
             </item></channel>
 </rss>
