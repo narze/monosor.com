@@ -2,14 +2,15 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>/</loc><lastmod>2020-04-12T16:55:40+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/posts/</loc><lastmod>2020-04-12T16:55:40+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/2020/04/typing-practice-drills/</loc><lastmod>2020-04-12T16:55:40+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/categories/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/cooking/</loc><lastmod>2017-01-01T13:58:11+00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/diy/</loc><lastmod>2017-01-01T13:58:11+00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/food/</loc><lastmod>2017-01-01T13:58:11+00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/categories/geek/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/categories/learn/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/posts/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/sous-vide/</loc><lastmod>2017-01-01T13:58:11+00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/geek/%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sous-vide-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%86/</loc><lastmod>2017-01-01T13:58:11+00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -32,8 +33,8 @@
             <loc>/tags/speed-reading/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/productivity/speed-reading-3x/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/coursera/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/categories/review/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/review/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/categories/review/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/tldr/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/review/learning-how-to-learn-online-course/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/cask/</loc><lastmod>2020-02-06T01:15:05+07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
