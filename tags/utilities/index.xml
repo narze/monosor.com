@@ -1,36 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>utilities on narze @ monosor.com</title>
-    <link>/tags/utilities/</link>
-    <description>Recent content in utilities on narze @ monosor.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 22 Nov 2015 19:13:26 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/utilities/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask</title>
-      <link>/geek/homebrew-cask/</link>
-      <pubDate>Sun, 22 Nov 2015 19:13:26 +0000</pubDate>
-      
-      <guid>/geek/homebrew-cask/</guid>
-      <description>&lt;p&gt;ทุกครั้งที่ลงแมคใหม่ ด้วยความที่เป็นคนชอบใช้โปรแกรมเยอะมาก ก็จะเริ่มจากการโหลดทุกอย่างให้ครบซะก่อนจะทำอะไรอย่างอื่น ไล่เรียงออกมาจะได้ประมาณนี้&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/chrome/browser&#34; target=&#34;_blank&#34;&gt;Google Chrome&lt;/a&gt; (สมัยยังใช้ Windows พูดเป็นประจำว่า “IE มีไว้เพื่อโหลด Chrome”) เดี๋ยวนี้ยังดีที่เซ็ตติ้งทุกอย่าง Sync มาได้เลย เมื่อก่อนต้องก๊อปโปรไฟล์มาแปะตลอด&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dropbox.com&#34; target=&#34;_blank&#34;&gt;Dropbox&lt;/a&gt; พวกเซ็ตติ้งของแอพอื่นๆ ที่ไม่มี Sync ก็เอาไว้ในนี้ แต่เดี๋ยวนี้เริ่มหันไปใช้ BTSync&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://evernote.com&#34; target=&#34;_blank&#34;&gt;Evernote&lt;/a&gt; ช่วงนี้จะโดนโพสโจมตีบ่อยๆ แต่ก็ยังจงรักภักดีอยู่ แถมยังลืมยกเลิกสมาชิกรายปีอีกตะหาก&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://slack.com&#34; target=&#34;_blank&#34;&gt;Slack&lt;/a&gt; ไว้คุยงาน&lt;/li&gt;
-&lt;li&gt;Text Editor ต่างๆ (&lt;a href=&#34;https://atom.io&#34; target=&#34;_blank&#34;&gt;Atom&lt;/a&gt;, &lt;a href=&#34;http://www.sublimetext.com/&#34; target=&#34;_blank&#34;&gt;Sublime Text&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://iterm2.com&#34; target=&#34;_blank&#34;&gt;iTerm2&lt;/a&gt; แทน Terminal&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.alfredapp.com&#34; target=&#34;_blank&#34;&gt;Alfred 2&lt;/a&gt; แทน Spotlight Search (เมื่อก่อนใช้ Quicksilver เพราะฟรี)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pqrs.org/osx/karabiner&#34; target=&#34;_blank&#34;&gt;Karabiner&lt;/a&gt; ทำปุ่มลัดแบบ Geek สุดๆ&lt;/li&gt;
-&lt;li&gt;มีอีกเยอะมากๆ&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>utilities - Tag - narze @ monosor.com</title>
+        <link>/tags/utilities/</link>
+        <description>utilities - Tag - narze @ monosor.com</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 22 Nov 2015 19:13:26 &#43;0000</lastBuildDate><atom:link href="/tags/utilities/" rel="self" type="application/rss+xml" /><item>
+    <title>ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask</title>
+    <link>/geek/homebrew-cask/</link>
+    <pubDate>Sun, 22 Nov 2015 19:13:26 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>/geek/homebrew-cask/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/cover/homebrew-cask.png" referrerpolicy="no-referrer">
+            </div><p>ทุกครั้งที่ลงแมคใหม่ ด้วยความที่เป็นคนชอบใช้โปรแกรมเยอะมาก ก็จะเริ่มจากการโหลดทุกอย่างให้ครบซะก่อนจะทำอะไรอย่างอื่น ไล่เรียงออกมาจะได้ประมาณนี้</p>
+<ul>
+<li><a href="https://www.google.com/chrome/browser" target="_blank" rel="noopener noreffer">Google Chrome</a> (สมัยยังใช้ Windows พูดเป็นประจำว่า “IE มีไว้เพื่อโหลด Chrome”) เดี๋ยวนี้ยังดีที่เซ็ตติ้งทุกอย่าง Sync มาได้เลย เมื่อก่อนต้องก๊อปโปรไฟล์มาแปะตลอด</li>
+<li><a href="https://dropbox.com" target="_blank" rel="noopener noreffer">Dropbox</a> พวกเซ็ตติ้งของแอพอื่นๆ ที่ไม่มี Sync ก็เอาไว้ในนี้ แต่เดี๋ยวนี้เริ่มหันไปใช้ BTSync</li>
+<li><a href="https://evernote.com" target="_blank" rel="noopener noreffer">Evernote</a> ช่วงนี้จะโดนโพสโจมตีบ่อยๆ แต่ก็ยังจงรักภักดีอยู่ แถมยังลืมยกเลิกสมาชิกรายปีอีกตะหาก</li>
+<li><a href="https://slack.com" target="_blank" rel="noopener noreffer">Slack</a> ไว้คุยงาน</li>
+<li>Text Editor ต่างๆ (<a href="https://atom.io" target="_blank" rel="noopener noreffer">Atom</a>, <a href="http://www.sublimetext.com/" target="_blank" rel="noopener noreffer">Sublime Text</a>)</li>
+<li><a href="https://iterm2.com" target="_blank" rel="noopener noreffer">iTerm2</a> แทน Terminal</li>
+<li><a href="https://www.alfredapp.com" target="_blank" rel="noopener noreffer">Alfred 2</a> แทน Spotlight Search (เมื่อก่อนใช้ Quicksilver เพราะฟรี)</li>
+<li><a href="https://pqrs.org/osx/karabiner" target="_blank" rel="noopener noreffer">Karabiner</a> ทำปุ่มลัดแบบ Geek สุดๆ</li>
+<li>มีอีกเยอะมากๆ</li>
+</ul>]]></description>
+</item></channel>
 </rss>

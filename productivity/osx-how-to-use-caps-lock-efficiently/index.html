@@ -2,18 +2,26 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock | narze @ monosor.com</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noodp" />
-<meta name="Description" content="About LoveIt Theme"><link rel="prev" href="/productivity/speed-reading-3x/" /><link rel="next" href="/programming/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-haskell-%E0%B9%81%E0%B8%A5%E0%B8%B0-functional-programming/" /><link rel="canonical" href="/productivity/osx-how-to-use-caps-lock-efficiently/" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"><meta name="twitter:card" content="summary"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock - narze @ monosor.com</title>
+        <meta name="Description" content="narze @ monosor.com"><meta property="og:title" content="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock" />
+<meta property="og:description" content="Deprecated ตอนนี้ใช้ Karabiner-elements แทนได้แล้ว
+ ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ ฆณ์ฮฉฐฐฯ๊็
+อย่าง Colemak ก็เปลี่ยนฟังก์ชั่นของปุ่มนี้เป็น Backspace แต่ยังมีวิธีอื่นที่ทำอะไรได้มากกว่านั้น ด้วยการทำให้มันเป็น Hyper Key
+Hyper Key เอามาจากปุ่ม Modifier ที่มีในคีย์บอร์ด Space Cadet นอกเหนือจาก Ctrl, Super และ Meta (เดี๋ยวนี้เหลือแต่ Ctrl, Super และ Alt)
+ซึ่งเราจะใช้ Hyper ร่วมกับปุ่มอื่นๆ เพื่อสร้าง Shortcut แบบกดง่ายจำง่ายของตัวเองกัน
+เริ่มจากโหลดโปรแกรมที่จำเป็นกันก่อน คือ Seil กับ Karabiner
+เราจะให้ Hyper Key เป็นการกด Ctrl, Alt (Option), Cmd, Shift พร้อมกันทั้งหมด จะได้ไม่ไปซ้ำกับโปรแกรมอะไรเลยเพราะมันกดยากมาก เราจะใช้ Seil เพื่อ Remap Caps Lock เป็นปุ่มอื่นที่ไม่มีบนคีย์บอร์ดก่อน เช่น F19 แล้วค่อยใช้ Karabiner Remap F19 เป็น Ctrl &#43; Option &#43; Cmd &#43; Shift อีกทีนึง" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/productivity/osx-how-to-use-caps-lock-efficiently/" />
+<meta property="og:image" content="/logo.png"/>
+<meta property="article:published_time" content="2016-03-02T19:31:56+00:00" />
+<meta property="article:modified_time" content="2020-02-06T01:15:05+07:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/logo.png"/>
+
 <meta name="twitter:title" content="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock"/>
 <meta name="twitter:description" content="Deprecated ตอนนี้ใช้ Karabiner-elements แทนได้แล้ว
  ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ ฆณ์ฮฉฐฐฯ๊็
@@ -22,11 +30,15 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
 ซึ่งเราจะใช้ Hyper ร่วมกับปุ่มอื่นๆ เพื่อสร้าง Shortcut แบบกดง่ายจำง่ายของตัวเองกัน
 เริ่มจากโหลดโปรแกรมที่จำเป็นกันก่อน คือ Seil กับ Karabiner
 เราจะให้ Hyper Key เป็นการกด Ctrl, Alt (Option), Cmd, Shift พร้อมกันทั้งหมด จะได้ไม่ไปซ้ำกับโปรแกรมอะไรเลยเพราะมันกดยากมาก เราจะใช้ Seil เพื่อ Remap Caps Lock เป็นปุ่มอื่นที่ไม่มีบนคีย์บอร์ดก่อน เช่น F19 แล้วค่อยใช้ Karabiner Remap F19 เป็น Ctrl &#43; Option &#43; Cmd &#43; Shift อีกทีนึง"/>
-<script type="application/ld+json">
+<meta name="application-name" content="narze">
+<meta name="apple-mobile-web-app-title" content="narze"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/productivity/osx-how-to-use-caps-lock-efficiently/" /><link rel="prev" href="/productivity/speed-reading-3x/" /><link rel="next" href="/programming/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-haskell-%E0%B9%81%E0%B8%A5%E0%B8%B0-functional-programming/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.th.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "headline": "[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock",
+        "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "\/productivity\/osx-how-to-use-caps-lock-efficiently\/"
@@ -35,8 +47,8 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
                 "url": "\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "geek, howto, mac, osx, productivity","wordcount":  260 ,
-        "url": "\/productivity\/osx-how-to-use-caps-lock-efficiently\/","datePublished": "2016-03-02T19:31:56\x2b00:00","dateModified": "2020-02-06T01:15:05\x2b07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            },"genre": "posts","keywords": "geek, howto, mac, osx, productivity","wordcount":  258 ,
+        "url": "\/productivity\/osx-how-to-use-caps-lock-efficiently\/","datePublished": "2016-03-02T19:31:56+00:00","dateModified": "2020-02-06T01:15:05+07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
                 "@type": "Organization",
                 "name": "narze",
                 "logo": {
@@ -45,52 +57,114 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
                 "width":  127 ,
                 "height":  40 
                 }
+            },"author": {
+                "@type": "Person",
+                "name": "narze"
             },"description": ""
     }
-    </script><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/css/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/css/lib/animate/animate.min.css"></head>
-    <body><script>
-            window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
-            window.isDark && document.body.classList.add('dark-theme');
-        </script><div class="wrapper"><nav class="navbar">
-    <div class="navbar-container">
-        <div class="navbar-header animated bounceIn">
-            <a href="/">narze @ monosor.com</a>
+    </script></head>
+    <body><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="narze @ monosor.com">narze</a>
         </div>
-        <div class="navbar-menu"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">ไทย<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/productivity/osx-how-to-use-caps-lock-efficiently/" selected>ไทย</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
         </div>
     </div>
-</nav><nav class="navbar-mobile">
-    <div class="navbar-container">
-        <div class="navbar-header">
-            <div class="navbar-header-title animated bounceIn">
-                <a href="/">narze @ monosor.com</a>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="narze @ monosor.com">narze</a>
             </div>
-            <div class="menu-toggle" id="menu-toggle">
+            <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="navbar-menu" id="mobile-menu"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
-        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">ไทย<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/productivity/osx-how-to-use-caps-lock-efficiently/" selected>ไทย</option></select>
+                </a></div>
     </div>
-</nav><main class="main">
-                <div class="container"><article class="page"><h1 class="post-title animated flipInX">[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock</h1><div class="post-meta">
-            <div class="post-meta-main"><a class="author" href="/" rel="author" target="_blank">
-                    <i class="fas fa-user-circle fa-fw"></i>narze
-                </a>&nbsp;<span class="post-category">included in&nbsp;<i class="far fa-folder fa-fw"></i><a href="/categories/productivity/">Productivity</a>&nbsp;</span></div>
-            <div class="post-meta-other"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2016-03-02>2016-03-02</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>about 260 words&nbsp;
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>narze</a></span>&nbsp;
+                    <span class="post-category">included in<a href="/categories/productivity/">
+                                <i class="far fa-folder fa-fw"></i>Productivity
+                            </a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2016-03-02>2016-03-02</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 258 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>2 min&nbsp;</div>
-        </div><div class="post-content"><h1 id="deprecated">Deprecated</h1>
+        </div><div class="details toc" id="toc-static">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><h1 id="deprecated">Deprecated</h1>
 <p>ตอนนี้ใช้ Karabiner-elements แทนได้แล้ว</p>
 <hr>
 <p>ปุ่ม Caps Lock นี่ปกติก็แทบไม่ได้ใช้อยู่แล้ว แถมบางครั้งยังน่ารำคาญเพราะทำให้เราพิมพ์ผิดเป็นตัวใหญ่ <em>ฆณ์ฮฉฐฐฯ๊็</em></p>
-<p>อย่าง <a href="http://colemak.com/" target="_blank">Colemak</a> ก็เปลี่ยนฟังก์ชั่นของปุ่มนี้เป็น Backspace แต่ยังมีวิธีอื่นที่ทำอะไรได้มากกว่านั้น ด้วยการทำให้มันเป็น Hyper Key</p>
-<p>Hyper Key เอามาจากปุ่ม Modifier ที่มีในคีย์บอร์ด <a href="https://en.wikipedia.org/wiki/Space-cadet_keyboard" target="_blank">Space Cadet</a> นอกเหนือจาก Ctrl, Super และ Meta (เดี๋ยวนี้เหลือแต่ Ctrl, Super และ Alt)</p>
+<p>อย่าง <a href="http://colemak.com/" target="_blank" rel="noopener noreffer">Colemak</a> ก็เปลี่ยนฟังก์ชั่นของปุ่มนี้เป็น Backspace แต่ยังมีวิธีอื่นที่ทำอะไรได้มากกว่านั้น ด้วยการทำให้มันเป็น Hyper Key</p>
+<p>Hyper Key เอามาจากปุ่ม Modifier ที่มีในคีย์บอร์ด <a href="https://en.wikipedia.org/wiki/Space-cadet_keyboard" target="_blank" rel="noopener noreffer">Space Cadet</a> นอกเหนือจาก Ctrl, Super และ Meta (เดี๋ยวนี้เหลือแต่ Ctrl, Super และ Alt)</p>
 <p>ซึ่งเราจะใช้ Hyper ร่วมกับปุ่มอื่นๆ เพื่อสร้าง Shortcut แบบกดง่ายจำง่ายของตัวเองกัน</p>
-<p>เริ่มจากโหลดโปรแกรมที่จำเป็นกันก่อน คือ <a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank">Seil</a> กับ <a href="https://pqrs.org/osx/karabiner/" target="_blank">Karabiner</a></p>
+<p>เริ่มจากโหลดโปรแกรมที่จำเป็นกันก่อน คือ <a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank" rel="noopener noreffer">Seil</a> กับ <a href="https://pqrs.org/osx/karabiner/" target="_blank" rel="noopener noreffer">Karabiner</a></p>
 <p>เราจะให้ Hyper Key เป็นการกด Ctrl, Alt (Option), Cmd, Shift พร้อมกันทั้งหมด จะได้ไม่ไปซ้ำกับโปรแกรมอะไรเลยเพราะมันกดยากมาก เราจะใช้ Seil เพื่อ Remap Caps Lock เป็นปุ่มอื่นที่ไม่มีบนคีย์บอร์ดก่อน เช่น F19 แล้วค่อยใช้ Karabiner Remap F19 เป็น Ctrl + Option + Cmd + Shift อีกทีนึง</p>
 <p>เริ่มจากเปิด Seil แล้วปรับให้ Keycode ของ Caps Lock เป็น 80 ตรงกับ F19 ในตารางด้านล่าง</p>
-<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/images/seil.png" alt="Seil" class="lazyload"><figcaption class="image-caption">Seil</figcaption></figure></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/images/seil.png"
+        data-srcset="/images/seil.png, /images/seil.png 1.5x, /images/seil.png 2x"
+        data-sizes="auto"
+        alt="Seil"
+        title="Seil" /></p>
 <p>ต่อไปเปิด Karabiner แล้วไปที่แท็บ Misc &amp; Uninstall แล้วกด Open private.xml จากนั้นคลิกขวาที่ไฟล์แล้ว Open With &gt; Text Edit หรือโปรแกรม Text Editor ตัวไหนก็ได้</p>
 <p>จากนั้นนำโค้ดนี้ไปแปะไว้ระหว่าง <code>&lt;root&gt;</code> และ <code>&lt;/root&gt;</code></p>
 <div class="highlight"><div class="chroma">
@@ -128,7 +202,14 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
 </code></pre></td></tr></table>
 </div>
 </div><p>เซฟไฟล์ private.xml จากนั้นกลับมาที่โปรแกรม Karabiner แท็บ Change Key กด Reload XML จากนั้นค้นหาและติ๊กที่ช่อง <code>Remap F19 to Hyper</code></p>
-<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/images/karabiner.png" alt="Karabiner" class="lazyload"><figcaption class="image-caption">Karabiner</figcaption></figure></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/images/karabiner.png"
+        data-srcset="/images/karabiner.png, /images/karabiner.png 1.5x, /images/karabiner.png 2x"
+        data-sizes="auto"
+        alt="Karabiner"
+        title="Karabiner" /></p>
 <p>เท่านี้ก็จะได้ปุ่ม Hyper key เอาไปใช้ทำ Shortcut ต่างๆ ได้มากมาย ที่ใช้อยู่เช่น</p>
 <ul>
 <li>เปิด Sublime Text ด้วย Hyper + S</li>
@@ -141,68 +222,53 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
 <p>ถ้าอยากให้ทำอะไรได้มากกว่านี้ เช่นถ้ากด Caps Lock เดี่ยวๆ จะกลายเป็น Esc แทน (มีประโยชน์เมื่อใช้ร่วมกับ vim) ให้โหลด private.xml จากที่นี่ไปลงทับของเก่าได้เลย <a href="https://github.com/jasonrudolph/keyboard/blob/master/karabiner/private.xml">https://github.com/jasonrudolph/keyboard/blob/master/karabiner/private.xml</a></p>
 <p>Sources :</p>
 <ul>
-<li><a href="http://www.tenshu.net/p/fake-hyper-key-for-osx.html" target="_blank">Fake Hyper key for OSX</a></li>
-<li><a href="http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/" target="_blank">A useful Caps Lock Key</a></li>
-<li><a href="http://www.economyofeffort.com/2014/08/11/beyond-ctrl-remap-make-that-caps-lock-key-useful/" target="_blank">Beyond Ctrl: Make That Caps Lock Key Useful</a></li>
-<li><a href="https://github.com/jasonrudolph/keyboard" target="_blank">Toward a more useful keyboard</a></li>
+<li><a href="http://www.tenshu.net/p/fake-hyper-key-for-osx.html" target="_blank" rel="noopener noreffer">Fake Hyper key for OSX</a></li>
+<li><a href="http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/" target="_blank" rel="noopener noreffer">A useful Caps Lock Key</a></li>
+<li><a href="http://www.economyofeffort.com/2014/08/11/beyond-ctrl-remap-make-that-caps-lock-key-useful/" target="_blank" rel="noopener noreffer">Beyond Ctrl: Make That Caps Lock Key Useful</a></li>
+<li><a href="https://github.com/jasonrudolph/keyboard" target="_blank" rel="noopener noreffer">Toward a more useful keyboard</a></li>
 </ul>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>The article was updated on 2020-02-06</span>
+                <span>The article was updated on 2020-02-06&nbsp;<a class="git-hash" href="https://github.com/narze/narze.github.io/commit/87315a382d87f7447caa81e89cbec188de0f5f34" target="_blank" title="commit by Manassarn Manoonchai(manassarn@gmail.com) 87315a382d87f7447caa81e89cbec188de0f5f34: :lipstick: Restore images">
+                                <i class="fas fa-hashtag fa-fw"></i>87315a3</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
-            <div class="post-info-md"></div>
-            <div class="post-info-share"><span><a href="//twitter.com/share?url=%2fproductivity%2fosx-how-to-use-caps-lock-efficiently%2f&amp;text=%5bOSX%5d%20%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b9%83%e0%b8%8a%e0%b9%89%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b9%82%e0%b8%a2%e0%b8%8a%e0%b8%99%e0%b9%8c%e0%b8%88%e0%b8%b2%e0%b8%81%e0%b8%9b%e0%b8%b8%e0%b9%88%e0%b8%a1%20Caps%20Lock&amp;via=narze" target="_blank" title="Share on Twitter">
-            <i class="fab fa-twitter fa-fw"></i>
-        </a><a href="//www.facebook.com/sharer/sharer.php?u=%2fproductivity%2fosx-how-to-use-caps-lock-efficiently%2f" target="_blank" title="Share on Facebook">
-            <i class="fab fa-facebook-square fa-fw"></i>
-        </a><a href="//reddit.com/submit?url=%2fproductivity%2fosx-how-to-use-caps-lock-efficiently%2f&amp;title=%5bOSX%5d%20%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b9%83%e0%b8%8a%e0%b9%89%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b9%82%e0%b8%a2%e0%b8%8a%e0%b8%99%e0%b9%8c%e0%b8%88%e0%b8%b2%e0%b8%81%e0%b8%9b%e0%b8%b8%e0%b9%88%e0%b8%a1%20Caps%20Lock" target="_blank" title="Share on Reddit">
-            <i class="fab fa-reddit fa-fw"></i>
-        </a></span></div>
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/productivity/osx-how-to-use-caps-lock-efficiently/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="/productivity/osx-how-to-use-caps-lock-efficiently/" data-title="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock" data-via="narze" data-hashtags="geek,howto,mac,osx,productivity"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="/productivity/osx-how-to-use-caps-lock-efficiently/" data-hashtag="geek"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="/productivity/osx-how-to-use-caps-lock-efficiently/" data-title="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="/productivity/osx-how-to-use-caps-lock-efficiently/" data-title="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="/productivity/osx-how-to-use-caps-lock-efficiently/" data-title="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="/productivity/osx-how-to-use-caps-lock-efficiently/" data-title="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="/productivity/osx-how-to-use-caps-lock-efficiently/" data-title="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="/productivity/osx-how-to-use-caps-lock-efficiently/" data-title="[OSX] วิธีใช้ประโยชน์จากปุ่ม Caps Lock"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section><span class="tag">
-                        <a href="/tags/geek/"><i class="fas fa-tag fa-fw"></i>&nbsp;geek</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/howto/"><i class="fas fa-tag fa-fw"></i>&nbsp;howto</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/mac/"><i class="fas fa-tag fa-fw"></i>&nbsp;mac</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/osx/"><i class="fas fa-tag fa-fw"></i>&nbsp;osx</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/productivity/"><i class="fas fa-tag fa-fw"></i>&nbsp;productivity</a>&nbsp;
-                    </span></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/geek/">geek</a>,&nbsp;<a href="/tags/howto/">howto</a>,&nbsp;<a href="/tags/mac/">mac</a>,&nbsp;<a href="/tags/osx/">osx</a>,&nbsp;<a href="/tags/productivity/">productivity</a></section>
         <section>
-            <span><a href="javascript:window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
     <div class="post-nav"><a href="/productivity/speed-reading-3x/" class="prev" rel="prev" title="เทคนิค Speed Reading 3 ข้อ ที่ทำให้อ่านได้เร็วขึ้นจากเดิม 3 เท่า"><i class="fas fa-angle-left fa-fw"></i>เทคนิค Speed Reading 3 ข้อ ที่ทำให้อ่านได้เร็วขึ้นจากเดิม 3 เท่า</a>
             <a href="/programming/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-haskell-%E0%B9%81%E0%B8%A5%E0%B8%B0-functional-programming/" class="next" rel="next" title="ครั้งแรกกับ Haskell และ Functional Programming">ครั้งแรกกับ Haskell และ Functional Programming<i class="fas fa-angle-right fa-fw"></i></a></div>
-</div><div class="post-comment"></div>
-    </article></div>
+</div>
+<div id="comments"></div></article></div>
             </main><footer class="footer">
-    <div class="copyright"><div class="copyright-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt<i class="far fa-heart fa-fw"></i></a>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.70.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">narze</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
+    </footer></div>
 
-        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2015 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">narze</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-    </div>
-</footer></div><a href="#" class="dynamic-to-top" id="dynamic-to-top" data-scroll>
-            <span>&nbsp;</span>
-        </a><script src="/js/lib/jquery/jquery.slim.min.js"></script><script src="/js/lib/lazysizes/lazysizes.min.js"></script><script src="/js/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script>window.scroll = new SmoothScroll('[data-scroll]', {speed: 300, speedAsDuration: true});</script><link rel="stylesheet" href="/css/lib/katex/katex.min.css"><script src="/js/lib/katex/katex.min.js"></script><script defer src="/js/lib/katex/auto-render.min.js"></script><link rel="stylesheet" href="/css/lib/katex/copy-tex.min.css"><script defer src="/js/lib/katex/copy-tex.min.js"></script><script defer src="/js/lib/katex/mhchem.min.js"></script><script>
-        document.addEventListener("DOMContentLoaded", function () {
-            renderMathInElement(document.body, {
-                delimiters: [
-                    { left: "$$", right: "$$", display: true },
-                    { left: "\\(", right: "\\)", display: false },
-                    { left: "\\[", right: "\\]", display: true },{ left: "$", right: "$", display: false },]
-            });
-        });
-    </script><script src="/js/blog.min.js"></script></body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"headerMode":{"desktop":"fixed","mobile":"auto"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

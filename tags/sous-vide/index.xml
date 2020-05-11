@@ -1,26 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sous-vide on narze @ monosor.com</title>
-    <link>/tags/sous-vide/</link>
-    <description>Recent content in sous-vide on narze @ monosor.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 13:58:11 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/sous-vide/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>ทำเครื่อง Sous-vide แบบบ้านๆ</title>
-      <link>/geek/%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sous-vide-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%86/</link>
-      <pubDate>Sun, 01 Jan 2017 13:58:11 +0000</pubDate>
-      
-      <guid>/geek/%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sous-vide-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%86/</guid>
-      <description>&lt;p&gt;ถ้าใครไม่รู้จัก Sous-vide มันคือการเอาอาหารไปซีลถุงสุญญากาศแล้วเอาไปต้มน้ำอุ่นที่ควบคุมอุณหภูมิไว้ครับ ซึ่งตัวเครื่องแพงเอาเรื่องอยู่ เลยมีคนหาวิธีทำแบบ DIY เลยลองดูครับ&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;/svg/loading.min.svg&#34; data-sizes=&#34;auto&#34; data-src=&#34;/images/diy-sous-vide/1.jpg&#34; alt=&#34;&#34; class=&#34;lazyload&#34;&gt;&lt;/figure&gt;&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>sous-vide - Tag - narze @ monosor.com</title>
+        <link>/tags/sous-vide/</link>
+        <description>sous-vide - Tag - narze @ monosor.com</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Jan 2017 13:58:11 &#43;0000</lastBuildDate><atom:link href="/tags/sous-vide/" rel="self" type="application/rss+xml" /><item>
+    <title>ทำเครื่อง Sous-vide แบบบ้านๆ</title>
+    <link>/geek/%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sous-vide-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%86/</link>
+    <pubDate>Sun, 01 Jan 2017 13:58:11 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>/geek/%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sous-vide-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%86/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/cover/diy-sous-vide.jpg" referrerpolicy="no-referrer">
+            </div><p>ถ้าใครไม่รู้จัก Sous-vide มันคือการเอาอาหารไปซีลถุงสุญญากาศแล้วเอาไปต้มน้ำอุ่นที่ควบคุมอุณหภูมิไว้ครับ ซึ่งตัวเครื่องแพงเอาเรื่องอยู่ เลยมีคนหาวิธีทำแบบ DIY เลยลองดูครับ</p>]]></description>
+</item></channel>
 </rss>

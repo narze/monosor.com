@@ -1,29 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>review on narze @ monosor.com</title>
-    <link>/tags/review/</link>
-    <description>Recent content in review on narze @ monosor.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 18 Jan 2016 18:18:15 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/review/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>รีวิวคอร์สออนไลน์ Learning How to Learn</title>
-      <link>/review/learning-how-to-learn-online-course/</link>
-      <pubDate>Mon, 18 Jan 2016 18:18:15 +0000</pubDate>
-      
-      <guid>/review/learning-how-to-learn-online-course/</guid>
-      <description>มีโอกาสได้ไปเจอคอร์สออนไลน์ Learning How to Learn บน Coursera เกิดสงสัยว่าเค้าจะสอนอะไรบ้าง ก็เลยลองเรียนดู พบว่ามันน่าสนใจกว่าที่คิดไว้ มีหลายเรื่องที่เราไม่เคยรู้มาก่อน แล้วเอามาใช้จริงได้เลย
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>review - Tag - narze @ monosor.com</title>
+        <link>/tags/review/</link>
+        <description>review - Tag - narze @ monosor.com</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 18 Jan 2016 18:18:15 &#43;0000</lastBuildDate><atom:link href="/tags/review/" rel="self" type="application/rss+xml" /><item>
+    <title>รีวิวคอร์สออนไลน์ Learning How to Learn</title>
+    <link>/review/learning-how-to-learn-online-course/</link>
+    <pubDate>Mon, 18 Jan 2016 18:18:15 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>/review/learning-how-to-learn-online-course/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/cover/learning-how-to-learn.png" referrerpolicy="no-referrer">
+            </div>มีโอกาสได้ไปเจอคอร์สออนไลน์ Learning How to Learn บน Coursera เกิดสงสัยว่าเค้าจะสอนอะไรบ้าง ก็เลยลองเรียนดู พบว่ามันน่าสนใจกว่าที่คิดไว้ มีหลายเรื่องที่เราไม่เคยรู้มาก่อน แล้วเอามาใช้จริงได้เลย
 ผู้สอนนั้นเป็นผู้ที่เชี่ยวชาญในหลายแขนง และใช้เทคนิคต่างๆ ในการเรียนรู้หลักการได้อย่างรวดเร็ว ตั้งแต่เริ่มต้นจนถึงความรู้ขั้นสูงของสาขาวิชานั้นๆ
 จริงๆ แล้วคอร์สนี้จะเหมาะมากถ้าคนเรียนยังอยู่ในชั้นมัธยมหรือว่ามหาลัย ที่ต้องอ่านหนังสือไปเตรียมสอบ เค้ามีเทคนิคการเตรียมสอบไว้โดยเฉพาะด้วย
 สรุปเป็นข้อๆ จากสิ่งที่เรียนได้ประมาณนี้
- สมองคนเรามีสองโหมดในการคิด คือแบบ Focus และแบบ Diffuse (กระจาย) ซึ่งจะมีประโยชน์ใช้สอยต่างกัน ในบางครั้งเราต้องหัดวิธีการ Switch Mode เพื่อให้เกิด Creativity Chunking หรือการแบ่งส่วนข้อมูลความรู้ให้เล็กลง เพราะว่าส่วน Working Memory ของเรานั้นเก็บข้อมูลได้เพียงเล็กน้อย แล้วใช้การเชื่อมโยงเข้ากับข้อมูลในเชิงลึกมากขึ้น เช่น “ไก่จิกเด็กตายบนปากโอ่ง” เป็น Chunk ที่ดีในการช่วยจำตัวอักษรกลาง Procrastination หรือการผัดวันประกันพรุ่ง แก้ไขได้ด้วยการมองที่ Process (กระบวนการ) แทน Product (ผลลัพธ์) หรือใช้ Pomodoro Technique http://pomodorotechnique.com เพื่อสร้าง Mini Deadline ให้เกิด Focus ได้อย่างรวดเร็ว การใช้ Analogy, Metaphor (อุปมา, อุปลักษณ์) เพื่อช่วยในการจำ  นอกจากนี้ยังมีเกร็ดความรู้ต่างๆ ตลอดการเรียน เช่นเรื่องการนอนมีส่วนช่วยในการเรียนรู้อย่างไร, ภาวะ Overlearning, Einstellung Effect เป็นต้น</description>
-    </item>
-    
-  </channel>
+ สมองคนเรามีสองโหมดในการคิด คือแบบ Focus และแบบ Diffuse (กระจาย) ซึ่งจะมีประโยชน์ใช้สอยต่างกัน ในบางครั้งเราต้องหัดวิธีการ Switch Mode เพื่อให้เกิด Creativity Chunking หรือการแบ่งส่วนข้อมูลความรู้ให้เล็กลง เพราะว่าส่วน Working Memory ของเรานั้นเก็บข้อมูลได้เพียงเล็กน้อย แล้วใช้การเชื่อมโยงเข้ากับข้อมูลในเชิงลึกมากขึ้น เช่น “ไก่จิกเด็กตายบนปากโอ่ง” เป็น Chunk ที่ดีในการช่วยจำตัวอักษรกลาง Procrastination หรือการผัดวันประกันพรุ่ง แก้ไขได้ด้วยการมองที่ Process (กระบวนการ) แทน Product (ผลลัพธ์) หรือใช้ Pomodoro Technique http://pomodorotechnique.com เพื่อสร้าง Mini Deadline ให้เกิด Focus ได้อย่างรวดเร็ว การใช้ Analogy, Metaphor (อุปมา, อุปลักษณ์) เพื่อช่วยในการจำ  นอกจากนี้ยังมีเกร็ดความรู้ต่างๆ ตลอดการเรียน เช่นเรื่องการนอนมีส่วนช่วยในการเรียนรู้อย่างไร, ภาวะ Overlearning, Einstellung Effect เป็นต้น]]></description>
+</item></channel>
 </rss>

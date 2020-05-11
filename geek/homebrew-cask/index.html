@@ -2,18 +2,31 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask | narze @ monosor.com</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noodp" />
-<meta name="Description" content="About LoveIt Theme"><link rel="next" href="/review/learning-how-to-learn-online-course/" /><link rel="canonical" href="/geek/homebrew-cask/" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"><meta name="twitter:card" content="summary"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask - narze @ monosor.com</title>
+        <meta name="Description" content="narze @ monosor.com"><meta property="og:title" content="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask" />
+<meta property="og:description" content="ทุกครั้งที่ลงแมคใหม่ ด้วยความที่เป็นคนชอบใช้โปรแกรมเยอะมาก ก็จะเริ่มจากการโหลดทุกอย่างให้ครบซะก่อนจะทำอะไรอย่างอื่น ไล่เรียงออกมาจะได้ประมาณนี้
+
+Google Chrome (สมัยยังใช้ Windows พูดเป็นประจำว่า “IE มีไว้เพื่อโหลด Chrome”) เดี๋ยวนี้ยังดีที่เซ็ตติ้งทุกอย่าง Sync มาได้เลย เมื่อก่อนต้องก๊อปโปรไฟล์มาแปะตลอด
+Dropbox พวกเซ็ตติ้งของแอพอื่นๆ ที่ไม่มี Sync ก็เอาไว้ในนี้ แต่เดี๋ยวนี้เริ่มหันไปใช้ BTSync
+Evernote ช่วงนี้จะโดนโพสโจมตีบ่อยๆ แต่ก็ยังจงรักภักดีอยู่ แถมยังลืมยกเลิกสมาชิกรายปีอีกตะหาก
+Slack ไว้คุยงาน
+Text Editor ต่างๆ (Atom, Sublime Text)
+iTerm2 แทน Terminal
+Alfred 2 แทน Spotlight Search (เมื่อก่อนใช้ Quicksilver เพราะฟรี)
+Karabiner ทำปุ่มลัดแบบ Geek สุดๆ
+มีอีกเยอะมากๆ
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/geek/homebrew-cask/" />
+<meta property="og:image" content="/logo.png"/>
+<meta property="article:published_time" content="2015-11-22T19:13:26+00:00" />
+<meta property="article:modified_time" content="2020-05-12T01:35:00+07:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/logo.png"/>
+
 <meta name="twitter:title" content="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask"/>
 <meta name="twitter:description" content="ทุกครั้งที่ลงแมคใหม่ ด้วยความที่เป็นคนชอบใช้โปรแกรมเยอะมาก ก็จะเริ่มจากการโหลดทุกอย่างให้ครบซะก่อนจะทำอะไรอย่างอื่น ไล่เรียงออกมาจะได้ประมาณนี้
 
@@ -27,11 +40,15 @@ Alfred 2 แทน Spotlight Search (เมื่อก่อนใช้ Quicks
 Karabiner ทำปุ่มลัดแบบ Geek สุดๆ
 มีอีกเยอะมากๆ
 "/>
-<script type="application/ld+json">
+<meta name="application-name" content="narze">
+<meta name="apple-mobile-web-app-title" content="narze"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/geek/homebrew-cask/" /><link rel="next" href="/review/learning-how-to-learn-online-course/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.th.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "headline": "ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask",
+        "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "\/geek\/homebrew-cask\/"
@@ -40,8 +57,8 @@ Karabiner ทำปุ่มลัดแบบ Geek สุดๆ
                 "url": "\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "cask, geek, homebrew, howto, mac, osx, productivity, utilities","wordcount":  192 ,
-        "url": "\/geek\/homebrew-cask\/","datePublished": "2015-11-22T19:13:26\x2b00:00","dateModified": "2020-02-06T01:15:05\x2b07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            },"genre": "posts","keywords": "cask, geek, homebrew, howto, mac, osx, productivity, utilities","wordcount":  188 ,
+        "url": "\/geek\/homebrew-cask\/","datePublished": "2015-11-22T19:13:26+00:00","dateModified": "2020-05-12T01:35:00+07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
                 "@type": "Organization",
                 "name": "narze",
                 "logo": {
@@ -50,56 +67,118 @@ Karabiner ทำปุ่มลัดแบบ Geek สุดๆ
                 "width":  127 ,
                 "height":  40 
                 }
+            },"author": {
+                "@type": "Person",
+                "name": "narze"
             },"description": ""
     }
-    </script><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/css/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/css/lib/animate/animate.min.css"></head>
-    <body><script>
-            window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
-            window.isDark && document.body.classList.add('dark-theme');
-        </script><div class="wrapper"><nav class="navbar">
-    <div class="navbar-container">
-        <div class="navbar-header animated bounceIn">
-            <a href="/">narze @ monosor.com</a>
+    </script></head>
+    <body><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="narze @ monosor.com">narze</a>
         </div>
-        <div class="navbar-menu"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">ไทย<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/geek/homebrew-cask/" selected>ไทย</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
         </div>
     </div>
-</nav><nav class="navbar-mobile">
-    <div class="navbar-container">
-        <div class="navbar-header">
-            <div class="navbar-header-title animated bounceIn">
-                <a href="/">narze @ monosor.com</a>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="narze @ monosor.com">narze</a>
             </div>
-            <div class="menu-toggle" id="menu-toggle">
+            <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="navbar-menu" id="mobile-menu"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
-        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">ไทย<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/geek/homebrew-cask/" selected>ไทย</option></select>
+                </a></div>
     </div>
-</nav><main class="main">
-                <div class="container"><article class="page"><h1 class="post-title animated flipInX">ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask</h1><div class="post-meta">
-            <div class="post-meta-main"><a class="author" href="/" rel="author" target="_blank">
-                    <i class="fas fa-user-circle fa-fw"></i>narze
-                </a>&nbsp;<span class="post-category">included in&nbsp;<i class="far fa-folder fa-fw"></i><a href="/categories/geek/">Geek</a>&nbsp;</span></div>
-            <div class="post-meta-other"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2015-11-22>2015-11-22</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>about 192 words&nbsp;
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>narze</a></span>&nbsp;
+                    <span class="post-category">included in<a href="/categories/geek/">
+                                <i class="far fa-folder fa-fw"></i>Geek
+                            </a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2015-11-22>2015-11-22</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 188 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>1 min&nbsp;</div>
-        </div><div class="post-featured-image"><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/images/cover/homebrew-cask.png" alt="featured image" class="lazyload"></div><div class="post-content"><p>ทุกครั้งที่ลงแมคใหม่ ด้วยความที่เป็นคนชอบใช้โปรแกรมเยอะมาก ก็จะเริ่มจากการโหลดทุกอย่างให้ครบซะก่อนจะทำอะไรอย่างอื่น ไล่เรียงออกมาจะได้ประมาณนี้</p>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading/normal.min.svg"
+        data-src="/images/cover/homebrew-cask.png"
+        data-srcset="/images/cover/homebrew-cask.png, /images/cover/homebrew-cask.png 1.5x, /images/cover/homebrew-cask.png 2x"
+        data-sizes="auto"
+        alt="/images/cover/homebrew-cask.png"
+        title="/images/cover/homebrew-cask.png" /></div><div class="details toc" id="toc-static">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><p>ทุกครั้งที่ลงแมคใหม่ ด้วยความที่เป็นคนชอบใช้โปรแกรมเยอะมาก ก็จะเริ่มจากการโหลดทุกอย่างให้ครบซะก่อนจะทำอะไรอย่างอื่น ไล่เรียงออกมาจะได้ประมาณนี้</p>
 <ul>
-<li><a href="https://www.google.com/chrome/browser" target="_blank">Google Chrome</a> (สมัยยังใช้ Windows พูดเป็นประจำว่า “IE มีไว้เพื่อโหลด Chrome”) เดี๋ยวนี้ยังดีที่เซ็ตติ้งทุกอย่าง Sync มาได้เลย เมื่อก่อนต้องก๊อปโปรไฟล์มาแปะตลอด</li>
-<li><a href="https://dropbox.com" target="_blank">Dropbox</a> พวกเซ็ตติ้งของแอพอื่นๆ ที่ไม่มี Sync ก็เอาไว้ในนี้ แต่เดี๋ยวนี้เริ่มหันไปใช้ BTSync</li>
-<li><a href="https://evernote.com" target="_blank">Evernote</a> ช่วงนี้จะโดนโพสโจมตีบ่อยๆ แต่ก็ยังจงรักภักดีอยู่ แถมยังลืมยกเลิกสมาชิกรายปีอีกตะหาก</li>
-<li><a href="https://slack.com" target="_blank">Slack</a> ไว้คุยงาน</li>
-<li>Text Editor ต่างๆ (<a href="https://atom.io" target="_blank">Atom</a>, <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a>)</li>
-<li><a href="https://iterm2.com" target="_blank">iTerm2</a> แทน Terminal</li>
-<li><a href="https://www.alfredapp.com" target="_blank">Alfred 2</a> แทน Spotlight Search (เมื่อก่อนใช้ Quicksilver เพราะฟรี)</li>
-<li><a href="https://pqrs.org/osx/karabiner" target="_blank">Karabiner</a> ทำปุ่มลัดแบบ Geek สุดๆ</li>
+<li><a href="https://www.google.com/chrome/browser" target="_blank" rel="noopener noreffer">Google Chrome</a> (สมัยยังใช้ Windows พูดเป็นประจำว่า “IE มีไว้เพื่อโหลด Chrome”) เดี๋ยวนี้ยังดีที่เซ็ตติ้งทุกอย่าง Sync มาได้เลย เมื่อก่อนต้องก๊อปโปรไฟล์มาแปะตลอด</li>
+<li><a href="https://dropbox.com" target="_blank" rel="noopener noreffer">Dropbox</a> พวกเซ็ตติ้งของแอพอื่นๆ ที่ไม่มี Sync ก็เอาไว้ในนี้ แต่เดี๋ยวนี้เริ่มหันไปใช้ BTSync</li>
+<li><a href="https://evernote.com" target="_blank" rel="noopener noreffer">Evernote</a> ช่วงนี้จะโดนโพสโจมตีบ่อยๆ แต่ก็ยังจงรักภักดีอยู่ แถมยังลืมยกเลิกสมาชิกรายปีอีกตะหาก</li>
+<li><a href="https://slack.com" target="_blank" rel="noopener noreffer">Slack</a> ไว้คุยงาน</li>
+<li>Text Editor ต่างๆ (<a href="https://atom.io" target="_blank" rel="noopener noreffer">Atom</a>, <a href="http://www.sublimetext.com/" target="_blank" rel="noopener noreffer">Sublime Text</a>)</li>
+<li><a href="https://iterm2.com" target="_blank" rel="noopener noreffer">iTerm2</a> แทน Terminal</li>
+<li><a href="https://www.alfredapp.com" target="_blank" rel="noopener noreffer">Alfred 2</a> แทน Spotlight Search (เมื่อก่อนใช้ Quicksilver เพราะฟรี)</li>
+<li><a href="https://pqrs.org/osx/karabiner" target="_blank" rel="noopener noreffer">Karabiner</a> ทำปุ่มลัดแบบ Geek สุดๆ</li>
 <li>มีอีกเยอะมากๆ</li>
 </ul>
 <p>ถ้าเป็นเมื่อก่อนก็ใช้เวลาทั้งวัน เพราะกว่าจะหาเว็บ เข้าไปโหลด เปิดไฟล์ ลากไปวางใน <code>/Applications</code> หรือบางตัวก็คลิกเปิด .pkg กด Nextๆๆ เช็คว่ามีไป่ตู้แถมมาด้วยไหม #เดี๋ยวๆ</p>
-<p>ทีนี้ไปเจอ <a href="http://caskroom.io" target="_blank">Homebrew Cask</a> เข้า มันคือตัวที่จะช่วยให้เราลงโปรแกรมเหล่านี้ได้ในการพิมพ์บรรทัดเดียว ต่อแอพนึง แล้วเราไม่ต้องทำอะไรเลยเพราะมันจะ Install ให้เราเสร็จสรรพ</p>
-<p>ตัว Homebrew Cask นั้นเป็นตัวเสริมของ <a href="http://brew.sh" target="_blank">Homebrew</a> อีกทีนึง ถ้าใครไม่รู้จัก มันคือ Package Manager ที่เอาไว้ลงนู่นนี่บนเครื่องแมค ผ่าน Terminal ครับ แต่ถ้าเป็น Homebrew เฉยๆ มันจะมีแต่พวก Command Line Tools เช่น git, tmux, node.js เป็นต้น</p>
+<p>ทีนี้ไปเจอ <a href="http://caskroom.io" target="_blank" rel="noopener noreffer">Homebrew Cask</a> เข้า มันคือตัวที่จะช่วยให้เราลงโปรแกรมเหล่านี้ได้ในการพิมพ์บรรทัดเดียว ต่อแอพนึง แล้วเราไม่ต้องทำอะไรเลยเพราะมันจะ Install ให้เราเสร็จสรรพ</p>
+<p>ตัว Homebrew Cask นั้นเป็นตัวเสริมของ <a href="http://brew.sh" target="_blank" rel="noopener noreffer">Homebrew</a> อีกทีนึง ถ้าใครไม่รู้จัก มันคือ Package Manager ที่เอาไว้ลงนู่นนี่บนเครื่องแมค ผ่าน Terminal ครับ แต่ถ้าเป็น Homebrew เฉยๆ มันจะมีแต่พวก Command Line Tools เช่น git, tmux, node.js เป็นต้น</p>
 <p>ซึ่งถ้าเราจะใช้งาน Homebrew Cask เราต้องติดตั้ง Homebrew ก่อน โดยเปิด Terminal ขึ้นมาแล้วรันคำสั่งนี้</p>
 <p><code>ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></p>
 <p>(อาจจะต้องลง Xcode command line tools ด้วยถ้ายังไม่เคยลง)</p>
@@ -114,7 +193,14 @@ Karabiner ทำปุ่มลัดแบบ Geek สุดๆ
 <p>ถ้าไม่แน่ใจว่ามีแอพใน Homebrew Cask รึเปล่า ให้เช็คด้วยคำสั่ง search ตามด้วยชื่อแอพ เช่น</p>
 <p><code>brew cask search baidu</code></p>
 <p>ถ้ามีโปรแกรมไหนชื่อตามนี้หรือคล้ายๆ กัน ก็จะโผล่มาให้เราเห็น</p>
-<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/images/brew-cask-search-baidu.png" alt="brew cask search baidu" class="lazyload"><figcaption class="image-caption">brew cask search baidu</figcaption></figure></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="/images/brew-cask-search-baidu.png"
+        data-srcset="/images/brew-cask-search-baidu.png, /images/brew-cask-search-baidu.png 1.5x, /images/brew-cask-search-baidu.png 2x"
+        data-sizes="auto"
+        alt="brew cask search baidu"
+        title="brew cask search baidu" /></p>
 <p>ดันมีจริงๆ ซะด้วย…</p>
 <p>พอใช้ไปซักพักถ้าแอพมีการอัพเดทแต่ภายในแอพไม่มีตัว Audoupdate เราสามารถใช้ <code>brew cask install appname --force</code> เพื่อบังคับให้ลงใหม่ได้</p>
 <p>แต่ก่อนหน้านั้นควรใช้คำสั่ง <code>brew cask update</code> ก่อนเพื่อดึงข้อมูลเวอร์ชั่นใหม่สุดของแต่ละแอพเข้ามาเก็บไว้ก่อนครับ</p>
@@ -123,65 +209,44 @@ Karabiner ทำปุ่มลัดแบบ Geek สุดๆ
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>The article was updated on 2020-02-06</span>
+                <span>The article was updated on 2020-05-12&nbsp;<a class="git-hash" href="https://github.com/narze/narze.github.io/commit/7aca35f89821247ce7967c3d1c5d11affe42fa03" target="_blank" title="commit by Manassarn Manoonchai(manassarn@gmail.com) 7aca35f89821247ce7967c3d1c5d11affe42fa03: :wthite_check_mark: Update Hugo, LoveIt">
+                                <i class="fas fa-hashtag fa-fw"></i>7aca35f</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
-            <div class="post-info-md"></div>
-            <div class="post-info-share"><span><a href="//twitter.com/share?url=%2fgeek%2fhomebrew-cask%2f&amp;text=%e0%b8%a5%e0%b8%87%e0%b9%81%e0%b8%ad%e0%b8%9e%e0%b9%81%e0%b8%a1%e0%b8%84%e0%b9%81%e0%b8%9a%e0%b8%9a%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b9%89%e0%b8%ad%e0%b8%87%e0%b9%80%e0%b8%82%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%a7%e0%b9%87%e0%b8%9a%e0%b8%94%e0%b9%89%e0%b8%a7%e0%b8%a2%20Homebrew%20Cask&amp;via=narze" target="_blank" title="Share on Twitter">
-            <i class="fab fa-twitter fa-fw"></i>
-        </a><a href="//www.facebook.com/sharer/sharer.php?u=%2fgeek%2fhomebrew-cask%2f" target="_blank" title="Share on Facebook">
-            <i class="fab fa-facebook-square fa-fw"></i>
-        </a><a href="//reddit.com/submit?url=%2fgeek%2fhomebrew-cask%2f&amp;title=%e0%b8%a5%e0%b8%87%e0%b9%81%e0%b8%ad%e0%b8%9e%e0%b9%81%e0%b8%a1%e0%b8%84%e0%b9%81%e0%b8%9a%e0%b8%9a%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%95%e0%b9%89%e0%b8%ad%e0%b8%87%e0%b9%80%e0%b8%82%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%a7%e0%b9%87%e0%b8%9a%e0%b8%94%e0%b9%89%e0%b8%a7%e0%b8%a2%20Homebrew%20Cask" target="_blank" title="Share on Reddit">
-            <i class="fab fa-reddit fa-fw"></i>
-        </a></span></div>
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/geek/homebrew-cask/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="/geek/homebrew-cask/" data-title="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask" data-via="narze" data-hashtags="cask,geek,homebrew,howto,mac,osx,productivity,utilities"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="/geek/homebrew-cask/" data-hashtag="cask"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="/geek/homebrew-cask/" data-title="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="/geek/homebrew-cask/" data-title="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="/geek/homebrew-cask/" data-title="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask" data-image="/images/cover/homebrew-cask.png"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="/geek/homebrew-cask/" data-title="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="/geek/homebrew-cask/" data-title="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="/geek/homebrew-cask/" data-title="ลงแอพแมคแบบไม่ต้องเข้าเว็บด้วย Homebrew Cask"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section><span class="tag">
-                        <a href="/tags/cask/"><i class="fas fa-tag fa-fw"></i>&nbsp;cask</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/geek/"><i class="fas fa-tag fa-fw"></i>&nbsp;geek</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/homebrew/"><i class="fas fa-tag fa-fw"></i>&nbsp;homebrew</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/howto/"><i class="fas fa-tag fa-fw"></i>&nbsp;howto</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/mac/"><i class="fas fa-tag fa-fw"></i>&nbsp;mac</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/osx/"><i class="fas fa-tag fa-fw"></i>&nbsp;osx</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/productivity/"><i class="fas fa-tag fa-fw"></i>&nbsp;productivity</a>&nbsp;
-                    </span><span class="tag">
-                        <a href="/tags/utilities/"><i class="fas fa-tag fa-fw"></i>&nbsp;utilities</a>&nbsp;
-                    </span></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/cask/">cask</a>,&nbsp;<a href="/tags/geek/">geek</a>,&nbsp;<a href="/tags/homebrew/">homebrew</a>,&nbsp;<a href="/tags/howto/">howto</a>,&nbsp;<a href="/tags/mac/">mac</a>,&nbsp;<a href="/tags/osx/">osx</a>,&nbsp;<a href="/tags/productivity/">productivity</a>,&nbsp;<a href="/tags/utilities/">utilities</a></section>
         <section>
-            <span><a href="javascript:window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
     <div class="post-nav">
             <a href="/review/learning-how-to-learn-online-course/" class="next" rel="next" title="รีวิวคอร์สออนไลน์ Learning How to Learn">รีวิวคอร์สออนไลน์ Learning How to Learn<i class="fas fa-angle-right fa-fw"></i></a></div>
-</div><div class="post-comment"></div>
-    </article></div>
+</div>
+<div id="comments"></div></article></div>
             </main><footer class="footer">
-    <div class="copyright"><div class="copyright-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt<i class="far fa-heart fa-fw"></i></a>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.70.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">narze</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
+    </footer></div>
 
-        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2015 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">narze</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-    </div>
-</footer></div><a href="#" class="dynamic-to-top" id="dynamic-to-top" data-scroll>
-            <span>&nbsp;</span>
-        </a><script src="/js/lib/jquery/jquery.slim.min.js"></script><script src="/js/lib/lazysizes/lazysizes.min.js"></script><script src="/js/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script>window.scroll = new SmoothScroll('[data-scroll]', {speed: 300, speedAsDuration: true});</script><link rel="stylesheet" href="/css/lib/katex/katex.min.css"><script src="/js/lib/katex/katex.min.js"></script><script defer src="/js/lib/katex/auto-render.min.js"></script><link rel="stylesheet" href="/css/lib/katex/copy-tex.min.css"><script defer src="/js/lib/katex/copy-tex.min.js"></script><script defer src="/js/lib/katex/mhchem.min.js"></script><script>
-        document.addEventListener("DOMContentLoaded", function () {
-            renderMathInElement(document.body, {
-                delimiters: [
-                    { left: "$$", right: "$$", display: true },
-                    { left: "\\(", right: "\\)", display: false },
-                    { left: "\\[", right: "\\]", display: true },{ left: "$", right: "$", display: false },]
-            });
-        });
-    </script><script src="/js/blog.min.js"></script></body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"headerMode":{"desktop":"fixed","mobile":"auto"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
