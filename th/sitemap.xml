@@ -2,6 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>/</loc><lastmod>2020-05-12T01:35:00&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="th"
+                    href="/"
+                    /></url><url>
+            <loc>/posts/</loc><lastmod>2020-05-12T01:35:00&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="th"
+                    href="/posts/"
+                    /></url><url>
+            <loc>/typing-practice-drills/</loc><lastmod>2020-04-12T16:55:40&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/categories/</loc><lastmod>2020-05-12T01:35:00&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -24,24 +43,6 @@
                     href="/categories/geek/"
                     /></url><url>
             <loc>/categories/learn/</loc><lastmod>2020-05-12T01:35:00&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/</loc><lastmod>2020-05-12T01:35:00&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="th"
-                    href="/"
-                    /></url><url>
-            <loc>/posts/</loc><lastmod>2020-05-12T01:35:00&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="th"
-                    href="/posts/"
-                    /></url><url>
             <loc>/tags/sous-vide/</loc><lastmod>2017-01-01T13:58:11&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/</loc><lastmod>2020-05-12T01:35:00&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"

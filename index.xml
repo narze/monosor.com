@@ -3,7 +3,14 @@
         <title>narze @ monosor.com</title>
         <link>/</link>
         <description>narze @ monosor.com</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Jan 2017 13:58:11 &#43;0000</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 12 Apr 2020 16:27:14 &#43;0700</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
+    <title>Typing Practice Drills</title>
+    <link>/typing-practice-drills/</link>
+    <pubDate>Sun, 12 Apr 2020 16:27:14 &#43;0700</pubDate>
+    <author>Author</author>
+    <guid>/typing-practice-drills/</guid>
+    <description><![CDATA[<p>These are my typing practice drills. I tried to do it every day, 20-30 minutes per day.</p>]]></description>
+</item><item>
     <title>ทำเครื่อง Sous-vide แบบบ้านๆ</title>
     <link>/geek/%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sous-vide-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%86/</link>
     <pubDate>Sun, 01 Jan 2017 13:58:11 &#43;0000</pubDate>
@@ -110,18 +117,5 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
  ไม่ออกเสียงตาม (Remove Subvocalization)  ปกติแล้วเมื่อเราอ่าน โดยธรรมชาติเราจะออกเสียงตาม (ในใจ) ซึ่งเป็นสิ่งที่ทำให้ความเร็วของการอ่านลดลง เพราะความเร็วของการใช้สายตาอ่าน (Visual) เร็วกว่าการอ่านแบบออกเสียง (Audio) หลายเท่า
 ลดการกวาดสายตา (Reduce Eye Movements)  วิธีที่ดีกว่าการกวาดสายตาเพื่ออ่านแต่ละคำ คือการอ่านแบบกำหนดจุดที่จะอ่านในทุกบรรทัดแบบตายตัว โดยอาจจะแบ่งเป็นบรรทัดละ 3-5 จุดแล้วแต่ความยาวของบรรทัด แล้วให้ใช้จุดนั้นเป็นหลักในการอ่าน
 ไม่อ่านซ้ำ  บอกกับตัวเองว่า เราจะไม่กลับมาอ่านซ้ำอีก จะทำให้เราตั้งใจอ่านและพยายามทำความเข้าใจกับมันได้มากขึ้น]]></description>
-</item><item>
-    <title>รีวิวคอร์สออนไลน์ Learning How to Learn</title>
-    <link>/review/learning-how-to-learn-online-course/</link>
-    <pubDate>Mon, 18 Jan 2016 18:18:15 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>/review/learning-how-to-learn-online-course/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/cover/learning-how-to-learn.png" referrerpolicy="no-referrer">
-            </div>มีโอกาสได้ไปเจอคอร์สออนไลน์ Learning How to Learn บน Coursera เกิดสงสัยว่าเค้าจะสอนอะไรบ้าง ก็เลยลองเรียนดู พบว่ามันน่าสนใจกว่าที่คิดไว้ มีหลายเรื่องที่เราไม่เคยรู้มาก่อน แล้วเอามาใช้จริงได้เลย
-ผู้สอนนั้นเป็นผู้ที่เชี่ยวชาญในหลายแขนง และใช้เทคนิคต่างๆ ในการเรียนรู้หลักการได้อย่างรวดเร็ว ตั้งแต่เริ่มต้นจนถึงความรู้ขั้นสูงของสาขาวิชานั้นๆ
-จริงๆ แล้วคอร์สนี้จะเหมาะมากถ้าคนเรียนยังอยู่ในชั้นมัธยมหรือว่ามหาลัย ที่ต้องอ่านหนังสือไปเตรียมสอบ เค้ามีเทคนิคการเตรียมสอบไว้โดยเฉพาะด้วย
-สรุปเป็นข้อๆ จากสิ่งที่เรียนได้ประมาณนี้
- สมองคนเรามีสองโหมดในการคิด คือแบบ Focus และแบบ Diffuse (กระจาย) ซึ่งจะมีประโยชน์ใช้สอยต่างกัน ในบางครั้งเราต้องหัดวิธีการ Switch Mode เพื่อให้เกิด Creativity Chunking หรือการแบ่งส่วนข้อมูลความรู้ให้เล็กลง เพราะว่าส่วน Working Memory ของเรานั้นเก็บข้อมูลได้เพียงเล็กน้อย แล้วใช้การเชื่อมโยงเข้ากับข้อมูลในเชิงลึกมากขึ้น เช่น “ไก่จิกเด็กตายบนปากโอ่ง” เป็น Chunk ที่ดีในการช่วยจำตัวอักษรกลาง Procrastination หรือการผัดวันประกันพรุ่ง แก้ไขได้ด้วยการมองที่ Process (กระบวนการ) แทน Product (ผลลัพธ์) หรือใช้ Pomodoro Technique http://pomodorotechnique.com เพื่อสร้าง Mini Deadline ให้เกิด Focus ได้อย่างรวดเร็ว การใช้ Analogy, Metaphor (อุปมา, อุปลักษณ์) เพื่อช่วยในการจำ  นอกจากนี้ยังมีเกร็ดความรู้ต่างๆ ตลอดการเรียน เช่นเรื่องการนอนมีส่วนช่วยในการเรียนรู้อย่างไร, ภาวะ Overlearning, Einstellung Effect เป็นต้น]]></description>
 </item></channel>
 </rss>
