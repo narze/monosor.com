@@ -3,7 +3,14 @@
         <title>All Posts - narze @ monosor.com</title>
         <link>/posts/</link>
         <description>All Posts | narze @ monosor.com</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 12 Apr 2020 16:27:14 &#43;0700</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 23 Jul 2020 09:25:19 &#43;0700</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Atomic Habits Book Summary</title>
+    <link>/atomic-habits-book-summary/</link>
+    <pubDate>Thu, 23 Jul 2020 09:25:19 &#43;0700</pubDate>
+    <author>Author</author>
+    <guid>/atomic-habits-book-summary/</guid>
+    <description><![CDATA[Tiny changes make a big difference  1% worse every day for one year = 0.03 1% better every day for one year = 37.78 times better   Change your identity instead of just outcome, focus on who you wish to become  The goal is not to read a book, the goal is to become a reader.   4 Stages of habit : Cue → Craving → Response → Reward 4 Laws of behavior change  Make It Obvious (Inversion : Make It Invisible)  Make the cues of good habits obvious &amp; visible, design your environment.]]></description>
+</item><item>
     <title>Typing Practice Drills</title>
     <link>/typing-practice-drills/</link>
     <pubDate>Sun, 12 Apr 2020 16:27:14 &#43;0700</pubDate>
@@ -106,16 +113,5 @@ Hyper Key เอามาจากปุ่ม Modifier ที่มีในค
 ซึ่งเราจะใช้ Hyper ร่วมกับปุ่มอื่นๆ เพื่อสร้าง Shortcut แบบกดง่ายจำง่ายของตัวเองกัน
 เริ่มจากโหลดโปรแกรมที่จำเป็นกันก่อน คือ Seil กับ Karabiner
 เราจะให้ Hyper Key เป็นการกด Ctrl, Alt (Option), Cmd, Shift พร้อมกันทั้งหมด จะได้ไม่ไปซ้ำกับโปรแกรมอะไรเลยเพราะมันกดยากมาก เราจะใช้ Seil เพื่อ Remap Caps Lock เป็นปุ่มอื่นที่ไม่มีบนคีย์บอร์ดก่อน เช่น F19 แล้วค่อยใช้ Karabiner Remap F19 เป็น Ctrl + Option + Cmd + Shift อีกทีนึง]]></description>
-</item><item>
-    <title>เทคนิค Speed Reading 3 ข้อ ที่ทำให้อ่านได้เร็วขึ้นจากเดิม 3 เท่า</title>
-    <link>/productivity/speed-reading-3x/</link>
-    <pubDate>Mon, 25 Jan 2016 19:15:29 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>/productivity/speed-reading-3x/</guid>
-    <description><![CDATA[รวบรวมและเรียบเรียงจาก SuperLearner และ FourHourWorkWeek
-มีเทคนิคง่ายๆ ที่ทำให้ความเร็วในการอ่านของเราเพิ่มขึ้นอย่างก้าวกระโดด โดยใช้เวลาฝึกแป๊ปเดียว มีหลักการ 3 ข้อดังนี้
- ไม่ออกเสียงตาม (Remove Subvocalization)  ปกติแล้วเมื่อเราอ่าน โดยธรรมชาติเราจะออกเสียงตาม (ในใจ) ซึ่งเป็นสิ่งที่ทำให้ความเร็วของการอ่านลดลง เพราะความเร็วของการใช้สายตาอ่าน (Visual) เร็วกว่าการอ่านแบบออกเสียง (Audio) หลายเท่า
-ลดการกวาดสายตา (Reduce Eye Movements)  วิธีที่ดีกว่าการกวาดสายตาเพื่ออ่านแต่ละคำ คือการอ่านแบบกำหนดจุดที่จะอ่านในทุกบรรทัดแบบตายตัว โดยอาจจะแบ่งเป็นบรรทัดละ 3-5 จุดแล้วแต่ความยาวของบรรทัด แล้วให้ใช้จุดนั้นเป็นหลักในการอ่าน
-ไม่อ่านซ้ำ  บอกกับตัวเองว่า เราจะไม่กลับมาอ่านซ้ำอีก จะทำให้เราตั้งใจอ่านและพยายามทำความเข้าใจกับมันได้มากขึ้น]]></description>
 </item></channel>
 </rss>
