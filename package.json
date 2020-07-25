@@ -6,7 +6,7 @@
   "dependencies": {
     "gatsby": "2.24.11",
     "gatsby-plugin-manifest": "2.4.21",
-    "gatsby-plugin-offline": "3.2.20",
+    "gatsby-plugin-offline": "3.2.21",
     "gatsby-plugin-postcss": "2.3.11",
     "gatsby-plugin-react-helmet": "3.3.10",
     "gatsby-plugin-sharp": "2.6.22",
@@ -35,19 +35,28 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "jest",
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "0.2.1",
     "autoprefixer": "9.8.5",
     "babel-eslint": "10.1.0",
+    "babel-jest": "^26.1.0",
+    "babel-preset-gatsby": "^0.5.4",
     "cssnano": "4.1.10",
-    "eslint": "6.8.0",
-    "eslint-loader": "3.0.4",
+    "cypress": "^4.11.0",
+    "eslint": "7.5.0",
+    "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-react": "7.20.3",
     "gatsby-plugin-eslint": "2.0.8",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.1.0",
     "prettier": "2.0.5",
+    "react-test-renderer": "^16.13.1",
+    "start-server-and-test": "^1.11.2",
     "tailwindcss": "1.5.2"
   },
   "repository": {
