@@ -12,3 +12,7 @@ yarn-error.log
 
 # deployment-specific configs
 now.json
+
+/cypress/integration/examples
+/cypress/screenshots
+/cypress/videos
