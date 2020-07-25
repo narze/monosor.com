@@ -3,3 +3,37 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
+
+/* Color Themes */
+/* {
+  "Space Cadet":"222e50",
+  "Xanadu":"808f85",
+  "Coral":"ff8552",
+  "Ghost White":"fbfbff",
+  "Onyx":"39393a"
+} */
+
+body {
+  background-color: #39393A;
+}
+
+footer {
+  background-color: #222E50;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #FF8552;
+}
+
+h1 {
+  @apply text-6xl;
+}
+
+h3 {
+  color: #808f85;
+  @apply text-3xl;
+}
+
+* {
+  color: #fbfbff;
+}

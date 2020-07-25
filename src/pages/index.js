@@ -1,10 +1,12 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import { Link, graphql } from "gatsby"
 
-function IndexPage() {
+const IndexPage = ({ data }) => {
+  const allPosts = data.allMdx.edges
+
   return (
     <Layout>
       <SEO
@@ -13,31 +15,45 @@ function IndexPage() {
       />
 
       <section className="text-center">
-        <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        />
+        <h1>monosor</h1>
 
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome to your first Gatsby site.
-        </h2>
+        <p>Hello there! Welcome to my digital garden!</p>
 
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS
-          </a>
-          , a utility-first CSS framework.
-        </p>
+        <h3>Posts</h3>
+
+        {
+          allPosts.map(({ node }) => (
+            <div key={node.id}>
+              <Link to={node.slug}>
+                {node.frontmatter.title}
+              </Link>
+            </div>
+          ))
+        }
       </section>
     </Layout>
   );
 }
 
+IndexPage.propTypes = {
+  data: PropTypes.node.isRequired,
+};
+
 export default IndexPage;
+
+export const query = graphql`
+  query {
+    allMdx {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+          }
+          fileAbsolutePath
+          slug
+        }
+      }
+    }
+  }
+`
