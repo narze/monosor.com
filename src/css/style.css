@@ -7,10 +7,10 @@
 /* Color Themes */
 /* {
   "Space Cadet":"222e50",
-  "Xanadu":"808f85",
+  "Xanadu":"#808f85",
   "Coral":"ff8552",
   "Ghost White":"fbfbff",
-  "Onyx":"39393a"
+  "Onyx":"39393a",
 } */
 
 body {
@@ -18,20 +18,37 @@ body {
 }
 
 footer {
-  background-color: #222E50;
+  color: #808f85;
 }
 
-h1, h2, h3, h4, h5 {
-  color: #FF8552;
+.title {
+  @apply text-6xl;
+  color: #ff8552;
 }
 
 h1 {
-  @apply text-6xl;
+  @apply text-6xl my-2;
+  color: #ff8552;
+}
+
+h2 {
+  @apply text-3xl my-2;
 }
 
 h3 {
-  color: #808f85;
-  @apply text-3xl;
+  @apply text-2xl my-2;
+}
+
+h4 {
+  @apply text-xl my-2;
+}
+
+h5 {
+  @apply text-lg my-2;
+}
+
+a {
+  color: #ff8552;
 }
 
 * {

@@ -15,15 +15,17 @@ const IndexPage = ({ data }) => {
       />
 
       <section className="text-center">
-        <h1>monosor</h1>
+        <h1 className="title">monosor</h1>
 
         <p>Hello there! Welcome to my digital garden!</p>
+      </section>
 
-        <h3>Posts</h3>
+      <section className="text-center mt-8">
+        <h3 className="mb-2">Posts</h3>
 
         {
           allPosts.map(({ node }) => (
-            <div key={node.id}>
+            <div key={node.id} className="my-1">
               <Link to={node.slug}>
                 {node.frontmatter.title}
               </Link>
@@ -43,7 +45,7 @@ export default IndexPage;
 
 export const query = graphql`
   query {
-    allMdx {
+    allMdx(filter: {frontmatter: {draft: {ne: true}}}) {
       edges {
         node {
           id

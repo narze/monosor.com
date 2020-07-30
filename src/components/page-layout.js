@@ -4,12 +4,12 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 
-function Layout({ children }) {
+function PageLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen font-sans">
       <Header />
 
-      <main className="flex-grow w-full max-w-4xl px-4 py-20 mx-auto md:px-8 md:py-16">
+      <main className="flex-grow w-full max-w-4xl px-4 py-2 mx-auto md:px-8 md:py-4">
         {children}
       </main>
 
@@ -18,8 +18,8 @@ function Layout({ children }) {
   );
 }
 
-Layout.propTypes = {
+PageLayout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default Layout;
+export default PageLayout;

@@ -5,9 +5,9 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `monosor`,
+    description: `narze's digital garden`,
+    author: `@narze`,
   },
   plugins: [
     {
@@ -27,7 +27,7 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
-          default: require.resolve("./src/components/layout.js"),
+          default: require.resolve("./src/components/page-layout.js"),
         },
       },
     },
