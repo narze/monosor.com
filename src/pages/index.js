@@ -10,8 +10,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
+        keywords={[`digital garden`, `blog`, `tech`]}
+        title="root"
       />
 
       <section className="text-center">
