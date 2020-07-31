@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO
         keywords={[`digital garden`, `blog`, `tech`]}
-        title="root"
+        title="~"
       />
 
       <section className="text-center">
