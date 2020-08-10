@@ -57,6 +57,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`, // Wait for this issue to be resolved
   ],
 };
