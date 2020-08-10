@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => {
       <section className="text-center">
         <h1 className="title">monosor</h1>
 
-        <p>Hello there! Welcome to my <Link to="/digital-garden">digital garden!</Link></p>
+        <p>Hello there! Welcome to my <Link to="digital-garden">Digital Garden!</Link></p>
       </section>
 
       <section className="text-center mt-8">
