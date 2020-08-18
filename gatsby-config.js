@@ -1,6 +1,5 @@
 const resolveConfig = require("tailwindcss/resolveConfig");
 const tailwindConfig = require("./tailwind.config.js");
-
 const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
@@ -49,7 +48,7 @@ module.exports = {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
-          require(`tailwindcss`)(tailwindConfig),
+          require(`tailwindcss`)(fullConfig),
           require(`autoprefixer`),
           ...(process.env.NODE_ENV === `production`
             ? [require(`cssnano`)]
