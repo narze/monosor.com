@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet"
 const shortcodes = { Link }
 
 function PageLayout({ children, pageContext }) {
-  const { title } = pageContext.frontmatter
+  const { title, wip } = pageContext.frontmatter
 
   return (
     <div className="flex flex-col min-h-screen font-sans">
@@ -22,6 +22,7 @@ function PageLayout({ children, pageContext }) {
       <Header />
 
       <main className="flex-grow w-full max-w-4xl px-4 py-2 mx-auto md:px-8 md:py-4">
+        { wip && <p>(This page is still work in progress)</p>}
         <MDXProvider components={shortcodes}>{children}</MDXProvider>
       </main>
 
@@ -34,7 +35,8 @@ PageLayout.propTypes = {
   children: PropTypes.node.isRequired,
   pageContext: PropTypes.shape({
     frontmatter: PropTypes.shape({
-      title: PropTypes.string.isRequired
+      title: PropTypes.string.isRequired,
+      wip: PropTypes.bool,
     })
   })
 };
