@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{fF2g:function(n,t,o){"use strict";function u(n){var t=n.pageContext.count;return JSON.stringify({count:t})}o.r(t),o.d(t,"default",(function(){return u}))}}]);
+//# sourceMappingURL=component---src-templates-json-js-a89a88b7b04be2dd872b.js.map
