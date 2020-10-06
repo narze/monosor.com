@@ -1,7 +1,3 @@
-const resolveConfig = require("tailwindcss/resolveConfig");
-const tailwindConfig = require("./tailwind.config.js");
-const fullConfig = resolveConfig(tailwindConfig);
-
 module.exports = {
   siteMetadata: {
     title: `monosor`,
@@ -46,15 +42,6 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [
-          require(`tailwindcss`)(fullConfig),
-          require(`autoprefixer`),
-          ...(process.env.NODE_ENV === `production`
-            ? [require(`cssnano`)]
-            : []),
-        ],
-      },
     },
     `gatsby-plugin-offline`,
   ],
