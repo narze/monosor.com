@@ -3,7 +3,7 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
-
+@tailwind screens;
 /* Color Themes */
 /* {
   "Space Cadet":"222e50",
