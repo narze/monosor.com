@@ -1,8 +1,8 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
-import React, { useState } from "react";
+import React from "react";
 
 function Header() {
-  const [isExpanded, toggleExpansion] = useState(false);
+  // const [isExpanded, toggleExpansion] = useState(false);
   const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -24,7 +24,7 @@ function Header() {
           </h1>
         </Link>
 
-        <button
+        {/* <button
           className="flex items-center block px-3 py-2 border border-white rounded md:hidden"
           onClick={() => toggleExpansion(!isExpanded)}
         >
@@ -36,9 +36,9 @@ function Header() {
             <title>Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
-        </button>
+        </button> */}
 
-        <nav
+        {/* <nav
           className={`${
             isExpanded ? `block` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
@@ -61,7 +61,7 @@ function Header() {
               {link.title}
             </Link>
           ))}
-        </nav>
+        </nav> */}
       </div>
     </header>
   );
