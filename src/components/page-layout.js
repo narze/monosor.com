@@ -24,6 +24,7 @@ function PageLayout({ children, pageContext }) {
       <main className="flex-grow w-full max-w-4xl px-4 py-2 mx-auto md:px-8 md:py-4">
         { wip && <p>(This page is still work in progress)</p>}
         <MDXProvider components={shortcodes}>{children}</MDXProvider>
+        { wip && <p>(This page is still work in progress)</p>}
       </main>
 
       <Footer />
