@@ -1,0 +1,25 @@
+---
+title: Generating an optimized Thai keyboard layout
+wip: true
+updates:
+- 24 Oct 2020
+---
+
+# Generating an optimized Thai keyboard layout
+
+I am building a new [Thai keyboard layout][1]. I will list all of the findings in this post.
+
+## Preparation
+
+Since I'll use [Rust][2] for this project and I'm relatively new to this language, I'll start from gathering the corpus from various sources and find out the most frequently used keys are. The code is simple, just scanning all the words from the source, count, then sort it like [this](https://gist.github.com/narze/9a3b71757bd3915387397b2bbaa8e0c8). The data is not quite useful, but it gives the idea which keys should be in the home row.
+
+## Typing Effort Model
+
+Next, I've planned to create the typing effort model similar to [Carpalx][3]. But the finger travel distance will be altered a bit to suit my use on [40% Keyboard][4]. When I got the model working I'll train with the text from all the sources, including my chat logs.
+
+*To be continued*
+
+[1]: /toward-a-more-useful-thai-keyboard-layout
+[2]: https://www.rust-lang.org
+[3]: http://mkweb.bcgsc.ca/carpalx/?typing_effort
+[4]: /40-percent-keyboard
