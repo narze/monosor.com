@@ -1,0 +1,46 @@
+---
+title: How I use tmux
+---
+
+# How I use tmux
+
+I'm a fan of [tmux][1]. However, I hardly use `tmux` alone without these tools.
+
+## [.tmux][2]
+
+I good tmux config for starter. Easy to use, and powerful. Powerline is included.
+
+## [Tmuxnator][3]
+
+I don't like to detach and attach sessions or use [`tmux-resurrect`][4] / [`tmux-continuum`][5]. I like to start a project with the same set of commands every time. So I use [Tmuxinator][3] to manage sessions with Yaml-formatted config instead.
+
+This is the sample config for Tmuxinator, which runs 3 instances of `yarn` at once.
+
+```yaml
+windows:
+  - editor:
+       layout: main-vertical
+       panes:
+         - 
+         - yarn run e2e
+         - yarn run test
+   - server:
+       layout: main-vertical
+       panes: 
+         - yarn run dev
+```
+
+## My Key Bindings
+
+I didn't use `Ctrl-A` or `Ctrl-B` as prefix like other people. I rebind the prefix to `Ctrl-;` instead (It is `Ctrl-O` on [Colemak DHm][6]). Moreover, I use Ctrl + vim movement keys to switch windows & panes.
+
+See my current config [here][7].
+
+[1]: https://github.com/tmux/tmux
+[2]: https://github.com/gpakosz/.tmux
+[3]: https://github.com/tmuxinator/tmuxinator
+[4]: https://github.com/tmux-plugins/tmux-resurrect
+[5]: https://github.com/tmux-plugins/tmux-continuum
+[6]: /colemak-mod-dhm
+[7]: https://github.com/narze/.tmux/blob/master/.tmux.conf.local
+
