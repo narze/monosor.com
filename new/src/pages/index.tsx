@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import '../styles/tailwind.css'
 
 interface IndexPageProps {
   data: {
