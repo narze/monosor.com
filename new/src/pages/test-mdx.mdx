@@ -1,0 +1,39 @@
+# Hi from MDX-landia
+
+
+Click the diagram to regenerate the colors.
+
+export const RandomColors = ({ count = 1000 }) => {
+  const [els, setEls] = React.useState([])
+  const randomHexColor = () => {
+    return '#' + ('000000' + Math.floor(Math.random()*16777215).toString(16)).slice(-6)
+  }
+  const regenEls = () => {
+    const newEls = []
+    for (let i = 0; i < count; i++) {
+      newEls.push(<div style={{ height: 16, width: 16, backgroundColor: randomHexColor() }} />)
+    }
+    setEls(newEls)
+  }
+  React.useEffect(() => regenEls(), [])
+  return (
+    <div
+      onClick={regenEls}
+      style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        cursor: 'pointer'
+      }}
+    >
+      {els}
+    </div>
+  )
+}
+
+<RandomColors />
+
+yeah!
+
+The color component is taken from the [blog post of MDX creator John
+Otander](https://johno.com/randomness-and-color/) exploring randomness and
+color.
