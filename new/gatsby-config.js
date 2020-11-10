@@ -1,28 +1,31 @@
 module.exports = {
   plugins: [
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-typescript",
-    "gatsby-plugin-eslint",
+    'gatsby-plugin-postcss',
+    'gatsby-plugin-typescript',
+    'gatsby-plugin-eslint',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "MDXPages",
-        path: "src/pages/",
+        name: 'pages',
+        path: '../src/pages/', // TODO: Change when done migrating
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "MDXImages",
-        path: "src/images/",
+        name: 'images',
+        path: '../src/pages/', // TODO: Change when done migrating
       },
     },
     {
-      resolve: "gatsby-plugin-mdx",
+      resolve: 'gatsby-plugin-mdx',
       options: {
+        defaultLayouts: {
+          default: require.resolve('./src/components/page-layout.tsx'),
+        },
         gatsbyRemarkPlugins: [
           {
-            resolve: "gatsby-remark-images",
+            resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1200,
             },
@@ -30,7 +33,7 @@ module.exports = {
         ],
       },
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
   ],
-};
+}

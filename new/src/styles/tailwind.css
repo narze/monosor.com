@@ -3,3 +3,53 @@
 @tailwind components;
 
 @tailwind utilities;
+
+html {
+  line-height: 1.5;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #39393a;
+}
+
+footer {
+  color: #808f85;
+}
+
+.title {
+  @apply text-6xl;
+  color: #ff8552;
+}
+
+h1 {
+  @apply text-6xl my-2;
+  color: #ff8552;
+}
+
+h2 {
+  @apply text-3xl my-2;
+}
+
+h3 {
+  @apply text-2xl my-2;
+}
+
+h4 {
+  @apply text-xl my-2;
+}
+
+h5 {
+  @apply text-lg my-2;
+}
+
+a {
+  color: #ff8552;
+  text-decoration: none;
+}
+
+* {
+  color: #fbfbff;
+}

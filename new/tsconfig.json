@@ -1,5 +1,6 @@
 {
-  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "public"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
