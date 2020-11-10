@@ -13,24 +13,24 @@ This starter is meant as a minimal reproduction of a Gatsby project in order to 
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1. **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+   Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    gatsby new my-site https://github.com/gatsbyjs/gatsby-starter-minimal
-    ```
+   ```shell
+   # create a new Gatsby site using the minimal starter
+   gatsby new my-site https://github.com/gatsbyjs/gatsby-starter-minimal
+   ```
 
-2.  **Start developing.**
+2. **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+   Navigate into your new site’s directory and start it up.
 
-    ```shell
-    cd my-site/
-    gatsby develop
-    ```
+   ```shell
+   cd my-site/
+   gatsby develop
+   ```
 
-3.  **Open the code and start customizing!**
+3. **Open the code and start customizing!**
 
-    Your site is now running at `http://localhost:8000`!
+   Your site is now running at `http://localhost:8000`!
