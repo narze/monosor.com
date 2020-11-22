@@ -40,12 +40,16 @@ function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
   return (
     <div className="flex flex-col min-h-screen font-sans">
       <Helmet
-        meta={[
-          {
-            property: 'og:image',
-            content: `https://ss.narze.vercel.app/${screenshot}.png`,
-          },
-        ]}
+        meta={
+          screenshot && screenshot.length
+            ? [
+                {
+                  property: 'og:image',
+                  content: `https://ss.narze.vercel.app/${screenshot}.png`,
+                },
+              ]
+            : []
+        }
       >
         <title>{title}</title>
       </Helmet>
