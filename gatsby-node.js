@@ -58,7 +58,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       createNodeField({
         node,
         name: `screenshot`,
-        value: false,
+        value: '',
       })
     }
   }

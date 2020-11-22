@@ -40,6 +40,8 @@ function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
 
   return (
     <div className="flex flex-col min-h-screen font-sans">
+      <SEO keywords={[`digital garden`, `blog`, `tech`]} title={title} />
+
       <Helmet
         meta={
           screenshot && screenshot.length
@@ -54,8 +56,6 @@ function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
       >
         <title>{title}</title>
       </Helmet>
-
-      <SEO keywords={[`digital garden`, `blog`, `tech`]} title={title} />
 
       {/* <Header /> */}
 
