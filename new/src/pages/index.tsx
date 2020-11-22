@@ -16,9 +16,9 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
   const allPosts = data.allMdx.edges
 
   return (
-    <>
-      <section className="text-center">
-        <h1 className="title">monosor</h1>
+    <div className="font-sans p-4 md:pt-8 md:grid md:grid-cols-3 md:gap-10 lg:pl-20">
+      <section className="text-center lg:text-right">
+        <h1 className="mt-0">monosor</h1>
 
         <p>
           Hello there! Welcome to my{' '}
@@ -26,7 +26,7 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
         </p>
       </section>
 
-      <section className="text-center mt-8">
+      <section className="text-left px-4 md:p-0 md:col-span-2">
         <h3 className="mb-2">Posts</h3>
 
         {allPosts.map(({ node }) => (
@@ -35,7 +35,7 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
           </div>
         ))}
       </section>
-    </>
+    </div>
   )
 }
 
