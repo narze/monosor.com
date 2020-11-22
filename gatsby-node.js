@@ -12,6 +12,8 @@ exports.onPostBuild = ({ reporter }) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
+  // TODO: if is index page, create screenshot with cache bust by number of pages
+
   if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
 
