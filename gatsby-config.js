@@ -54,6 +54,13 @@ module.exports = {
         cache_busting_mode: `none`,
       },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        workboxConfig: {
+          globPatterns: ['**/icon-*'],
+        },
+      },
+    },
   ],
 }
