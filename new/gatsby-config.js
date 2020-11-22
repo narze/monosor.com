@@ -10,25 +10,11 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-plugin-eslint',
     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'pages',
-        path: '../src/pages/', // TODO: Change when done migrating
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'images',
-        path: '../src/pages/', // TODO: Change when done migrating
-      },
-    },
-    {
       resolve: 'gatsby-plugin-mdx',
       options: {
-        defaultLayouts: {
-          default: require.resolve('./src/components/page-layout.tsx'),
-        },
+        // defaultLayouts: {
+        //   default: require.resolve('./src/components/page-layout.tsx'),
+        // },
         gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-images',
@@ -37,6 +23,20 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pages',
+        path: `${__dirname}/posts/`, // TODO: Change when done migrating
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: '../src/images/', // TODO: Change when done migrating
       },
     },
     'gatsby-plugin-sharp',

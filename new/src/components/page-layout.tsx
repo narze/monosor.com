@@ -4,8 +4,9 @@ import React from 'react'
 // import Footer from "./footer";
 
 import { MDXProvider } from '@mdx-js/react'
-import { Link } from 'gatsby'
-// import { Helmet } from "react-helmet";
+import { graphql, Link } from 'gatsby'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
+import { Helmet } from 'react-helmet'
 
 const shortcodes = { Link }
 
@@ -17,16 +18,37 @@ interface IPageLayout {
       wip?: boolean
     }
   }
+  data: {
+    mdx: {
+      id: string
+      body: string
+      fields: {
+        screenshot: string
+      }
+      frontmatter: {
+        title: string
+        wip?: boolean
+      }
+    }
+  }
 }
 
-function PageLayout({ children, pageContext }: IPageLayout): JSX.Element {
-  const { wip } = pageContext.frontmatter
+function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
+  const { wip, title } = mdx.frontmatter
+  const { screenshot } = mdx.fields
 
   return (
     <div className="flex flex-col min-h-screen font-sans">
-      {/* <Helmet>
+      <Helmet
+        meta={[
+          {
+            property: 'og:image',
+            content: `https://ss.narze.vercel.app/${screenshot}.png`,
+          },
+        ]}
+      >
         <title>{title}</title>
-      </Helmet> */}
+      </Helmet>
 
       {/* <Header /> */}
 
@@ -34,7 +56,11 @@ function PageLayout({ children, pageContext }: IPageLayout): JSX.Element {
         <Link to="/" className="text-gray-400">
           ← Back
         </Link>
-        <MDXProvider components={shortcodes}>{children}</MDXProvider>
+
+        <MDXProvider components={shortcodes}>
+          <MDXRenderer>{mdx.body}</MDXRenderer>
+        </MDXProvider>
+
         {wip && <p>(This page is still work in progress)</p>}
       </main>
 
@@ -43,14 +69,20 @@ function PageLayout({ children, pageContext }: IPageLayout): JSX.Element {
   )
 }
 
-// PageLayout.propTypes = {
-//   children: PropTypes.node.isRequired,
-//   pageContext: PropTypes.shape({
-//     frontmatter: PropTypes.shape({
-//       title: PropTypes.string.isRequired,
-//       wip: PropTypes.bool,
-//     }),
-//   }),
-// };
-
 export default PageLayout
+
+export const pageQuery = graphql`
+  query MDXQuery($id: String!) {
+    mdx(id: { eq: $id }) {
+      id
+      body
+      fields {
+        screenshot
+      }
+      frontmatter {
+        title
+        wip
+      }
+    }
+  }
+`
