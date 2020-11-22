@@ -38,8 +38,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
           url: `https://monosor.com${slug}`,
           width: 1280,
           height: 720,
-          // waitUntil: waitUntil,
-          // deviceScaleFactor: deviceScaleFactor,
+          deviceScaleFactor: 2,
         },
         key,
         {
