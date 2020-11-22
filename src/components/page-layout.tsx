@@ -50,6 +50,10 @@ function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
                   property: 'og:image',
                   content: `https://ss.narze.vercel.app/${screenshot}.png`,
                 },
+                {
+                  property: 'twitter:image',
+                  content: `https://ss.narze.vercel.app/${screenshot}.png`,
+                },
               ]
             : []
         }
