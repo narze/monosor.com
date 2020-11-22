@@ -1,12 +1,13 @@
 import React from 'react'
-
-// import Header from "./header";
-// import Footer from "./footer";
-
 import { MDXProvider } from '@mdx-js/react'
 import { graphql, Link } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Helmet } from 'react-helmet'
+
+import '../styles/tailwind.css'
+import SEO from './seo'
+// import Header from "./header";
+// import Footer from "./footer";
 
 const shortcodes = { Link }
 
@@ -53,6 +54,8 @@ function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
       >
         <title>{title}</title>
       </Helmet>
+
+      <SEO keywords={[`digital garden`, `blog`, `tech`]} title={title} />
 
       {/* <Header /> */}
 
