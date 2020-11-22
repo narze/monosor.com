@@ -41,5 +41,26 @@ module.exports = {
     // },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `monosor : digital garden`,
+        short_name: `monosor`,
+        start_url: `/`,
+        background_color: `#39393a`,
+        theme_color: `#ff8552`,
+        display: `minimal-ui`,
+        icon: `src/images/icon.svg`,
+        cache_busting_mode: `none`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        workboxConfig: {
+          globPatterns: ['**/icon-*'],
+        },
+      },
+    },
   ],
 }
