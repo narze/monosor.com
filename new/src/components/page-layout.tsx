@@ -31,7 +31,9 @@ function PageLayout({ children, pageContext }: IPageLayout): JSX.Element {
       {/* <Header /> */}
 
       <main className="flex-grow w-full max-w-4xl px-4 py-2 mx-auto md:px-8 md:py-4">
-        {wip && <p>(This page is still work in progress)</p>}
+        <Link to="/" className="text-gray-400">
+          ← Back
+        </Link>
         <MDXProvider components={shortcodes}>{children}</MDXProvider>
         {wip && <p>(This page is still work in progress)</p>}
       </main>
