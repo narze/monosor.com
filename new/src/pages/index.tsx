@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import SEO from '../components/seo'
 import '../styles/tailwind.css'
 
 interface IndexPageProps {
@@ -17,6 +18,8 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
 
   return (
     <div className="font-sans p-4 md:pt-8 md:grid md:grid-cols-3 md:gap-10 lg:pl-20">
+      <SEO keywords={[`digital garden`, `blog`, `tech`]} title="home" />
+
       <section className="text-center lg:text-right">
         <h1 className="mt-0">monosor</h1>
 

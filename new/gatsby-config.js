@@ -1,5 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: `monosor`,
+    description: `narze's digital garden`,
+    author: `@narze`,
+  },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-postcss',
     'gatsby-plugin-typescript',
     'gatsby-plugin-eslint',
