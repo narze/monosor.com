@@ -27,7 +27,7 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
       </section>
 
       <section className="text-left px-4 md:p-0 md:col-span-2">
-        <h3 className="mb-2">Posts</h3>
+        <h3 className="mb-2">All Posts ({allPosts.length})</h3>
 
         {allPosts.map(({ node }) => (
           <div key={node.id} className="my-1">
