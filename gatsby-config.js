@@ -29,16 +29,16 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: `${__dirname}/posts/`, // TODO: Change when done migrating
+        path: `${__dirname}/posts/`,
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'images',
-        path: '../src/images/', // TODO: Change when done migrating
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'images',
+    //     path: '../src/images/', // TODO: Change when done migrating
+    //   },
+    // },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
   ],
