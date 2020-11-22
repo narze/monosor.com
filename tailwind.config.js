@@ -1,15 +1,11 @@
-// See https://tailwindcss.com/docs/configuration for details
 module.exports = {
-  purge: ["./src/**/*.js"],
-  theme: {},
+  purge: ['./src/**/*.{js,jsx,ts,tsx,mdx}'],
+  theme: {
+    extend: {},
+  },
   variants: {},
-  // https://github.com/tailwindcss/custom-forms
-  plugins: [require("@tailwindcss/custom-forms")],
+  plugins: [],
   corePlugins: {
     preflight: false,
   },
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-};
+}

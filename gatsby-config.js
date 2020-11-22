@@ -5,44 +5,41 @@ module.exports = {
     author: `@narze`,
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-postcss',
+    'gatsby-plugin-typescript',
+    'gatsby-plugin-eslint',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-plugin-mdx',
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
+        // defaultLayouts: {
+        //   default: require.resolve('./src/components/page-layout.tsx'),
+        // },
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
       },
     },
     {
-      resolve: "gatsby-plugin-page-creator",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/pages`,
+        name: 'pages',
+        path: `${__dirname}/posts/`, // TODO: Change when done migrating
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        defaultLayouts: {
-          default: require.resolve("./src/components/page-layout.js"),
-        },
+        name: 'images',
+        path: '../src/images/', // TODO: Change when done migrating
       },
     },
-    `gatsby-plugin-eslint`,
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `monosor : digital garden`,
-        short_name: `monosor`,
-        start_url: `/`,
-        background_color: `#39393a`,
-        theme_color: `#ff8552`,
-        display: `minimal-ui`,
-        icon: `src/images/favicon.png`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-postcss`,
-    },
-    `gatsby-plugin-offline`,
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
   ],
-};
+}
