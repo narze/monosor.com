@@ -51,6 +51,10 @@ function SEO({
           content: metaDescription,
         },
         {
+          property: `og:url`,
+          content: 'https://monosor.com',
+        },
+        {
           property: `og:title`,
           content: title,
         },
