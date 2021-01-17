@@ -28,6 +28,11 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
           <Link to="digital-garden">Digital Garden!</Link>
         </p>
 
+        <p className="text-xs">
+          The coding tutorials are in{' '}
+          <a href="https://monosor.dev">the other castle!</a>
+        </p>
+
         <p>
           <a
             href="https://webring.wonderful.software#monosor.com"
