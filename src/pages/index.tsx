@@ -27,6 +27,20 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
           Hello there! Welcome to my{' '}
           <Link to="digital-garden">Digital Garden!</Link>
         </p>
+
+        <p>
+          <a
+            href="https://webring.wonderful.software#monosor.com"
+            title="webring"
+          >
+            <img
+              alt="webring"
+              width="32"
+              height="32"
+              src="/images/webring.svg"
+            />
+          </a>
+        </p>
       </section>
 
       <section className="text-left px-4 md:p-0 md:col-span-2">
