@@ -29,6 +29,10 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
         </p>
 
         <p className="text-xs">
+          <Link to="/reads">Reads 📚</Link>
+        </p>
+
+        <p className="text-xs">
           The coding tutorials are in{' '}
           <a href="https://monosor.dev">the other castle!</a>
         </p>

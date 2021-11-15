@@ -21,16 +21,13 @@ const ReadsPage = ({ data }: ReadsPageProps): JSX.Element => {
       <SEO keywords={[`digital garden`, `blog`, `tech`]} title="home" />
 
       <section className="text-center lg:text-right">
-        <h1 className="mt-0">monosor</h1>
+        <h1 className="mt-0">
+          <Link to="/">monosor</Link>
+        </h1>
 
         <p>
           Hello there! Welcome to my{' '}
           <Link to="digital-garden">Digital Garden!</Link>
-        </p>
-
-        <p className="text-xs">
-          The coding tutorials are in{' '}
-          <a href="https://monosor.dev">the other castle!</a>
         </p>
 
         <p>
