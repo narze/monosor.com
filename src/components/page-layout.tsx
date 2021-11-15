@@ -17,6 +17,7 @@ interface IPageLayout {
     frontmatter: {
       title: string
       wip?: boolean
+      source?: string
     }
   }
   data: {
@@ -29,6 +30,7 @@ interface IPageLayout {
       frontmatter: {
         title: string
         wip?: boolean
+        source?: string
       }
       slug: string
     }
@@ -36,9 +38,11 @@ interface IPageLayout {
 }
 
 function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
-  const { wip, title } = mdx.frontmatter
-  const { screenshot } = mdx.fields
-  const { slug } = mdx
+  const {
+    slug,
+    frontmatter: { wip, title, source },
+    fields: { screenshot },
+  } = mdx
 
   return (
     <div className="flex flex-col min-h-screen font-sans">
@@ -73,6 +77,15 @@ function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
           ← Back
         </Link>
 
+        {source && (
+          <p>
+            Source:{' '}
+            <a href={source} target="_blank" rel="noreferrer">
+              {source}
+            </a>
+          </p>
+        )}
+
         <MDXProvider components={shortcodes}>
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </MDXProvider>
@@ -98,6 +111,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         wip
+        source
       }
       slug
     }
