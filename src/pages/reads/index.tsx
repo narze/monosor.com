@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import SEO from '../components/seo'
-import '../styles/tailwind.css'
+import SEO from '../../components/seo'
+import '../../styles/tailwind.css'
 
-interface IndexPageProps {
+interface ReadsPageProps {
   data: {
     allMdx: {
       edges: [
@@ -13,7 +13,7 @@ interface IndexPageProps {
   }
 }
 
-const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
+const ReadsPage = ({ data }: ReadsPageProps): JSX.Element => {
   const allPosts = data.allMdx.edges
 
   return (
@@ -49,7 +49,7 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
       </section>
 
       <section className="text-left px-4 md:p-0 md:col-span-2">
-        <h3 className="mb-2">All Posts ({allPosts.length})</h3>
+        <h3 className="mb-2">Reads ({allPosts.length})</h3>
 
         {allPosts.map(({ node }) => (
           <div key={node.id} className="my-1">
@@ -61,13 +61,15 @@ const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
   )
 }
 
-export default IndexPage
+export default ReadsPage
 
 export const query = graphql`
   query {
-    # Excludes drafts & posts in subfolders like "reads"
     allMdx(
-      filter: { frontmatter: { draft: { ne: true } }, slug: { glob: "!*/*" } }
+      filter: {
+        frontmatter: { draft: { ne: true } }
+        slug: { glob: "reads/*" }
+      }
     ) {
       edges {
         node {
