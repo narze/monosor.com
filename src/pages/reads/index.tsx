@@ -50,7 +50,7 @@ const ReadsPage = ({ data }: ReadsPageProps): JSX.Element => {
 
         {allPosts.map(({ node }) => (
           <div key={node.id} className="my-1">
-            <Link to={node.slug}>{node.frontmatter.title}</Link>
+            <Link to={`/${node.slug}`}>{node.frontmatter.title}</Link>
           </div>
         ))}
       </section>

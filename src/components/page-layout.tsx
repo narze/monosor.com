@@ -30,6 +30,7 @@ interface IPageLayout {
         title: string
         wip?: boolean
       }
+      slug: string
     }
   }
 }
@@ -37,6 +38,7 @@ interface IPageLayout {
 function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
   const { wip, title } = mdx.frontmatter
   const { screenshot } = mdx.fields
+  const { slug } = mdx
 
   return (
     <div className="flex flex-col min-h-screen font-sans">
@@ -64,7 +66,10 @@ function PageLayout({ data: { mdx } }: IPageLayout): JSX.Element {
       {/* <Header /> */}
 
       <main className="flex-grow w-full max-w-4xl px-4 py-2 mx-auto md:px-8 md:py-4">
-        <Link to="/" className="text-gray-400">
+        <Link
+          to={`/${slug.split('/').slice(0, -1).join('/')}`}
+          className="text-gray-400"
+        >
           ← Back
         </Link>
 
@@ -94,6 +99,7 @@ export const pageQuery = graphql`
         title
         wip
       }
+      slug
     }
   }
 `
